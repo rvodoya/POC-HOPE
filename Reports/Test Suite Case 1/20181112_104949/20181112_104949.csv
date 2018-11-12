@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test Suite Case 1,Chrome 70.0.3538.77,,2018-11-12 10:49:57,2018-11-12 10:50:18,20.468s,FAILED
+,,,,,,
+Test Cases/CRUD Data/Add Activity with Date,Chrome 70.0.3538.77,,2018-11-12 10:49:58,2018-11-12 10:50:17,18.848s,FAILED
+openBrowser,Chrome 70.0.3538.77,,2018-11-12 10:49:59,2018-11-12 10:50:04,5.630s,PASSED
+navigateToUrl,Chrome 70.0.3538.77,,2018-11-12 10:50:04,2018-11-12 10:50:15,10.717s,PASSED
+click,Chrome 70.0.3538.77,,2018-11-12 10:50:15,2018-11-12 10:50:15,0.501s,PASSED
+click,Chrome 70.0.3538.77,,2018-11-12 10:50:15,2018-11-12 10:50:16,0.701s,PASSED
+click,Chrome 70.0.3538.77,,2018-11-12 10:50:16,2018-11-12 10:50:17,0.654s,FAILED

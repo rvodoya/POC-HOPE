@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite Case 1" time="17" tests="1" failures="0" errors="0">
+   <testsuite name="Test Suite Case 1" tests="1" failures="0" errors="0" time="17" timestamp="2018-11-06 15:57:30" hostname="netzon.rhobert - netzon-jlaw" id="Test Suites/Test Suite Case 1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\netzon.rhobert\\Katalon Studio\\POC HOPE\\Reports\\Test Suite Case 1\\20181106_155721"/>
+         <property name="logFiles" value="C:\\Users\\netzon.rhobert\\Katalon Studio\\POC HOPE\\Reports\\Test Suite Case 1\\20181106_155721\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="netzon.rhobert - netzon-jlaw"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.5.1"/>
+         <property name="browser" value="Chrome 70.0.3538.77"/>
+         <property name="hostAddress" value="10.0.75.1"/>
+         <property name="sessionId" value="9480ab679b54bb31488c0555e8c46416"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Test Case 1" classname="Test Cases/Test Case 1" status="PASSED">
+         <system-out><![CDATA[2018-11-06 15:57:31 - [TEST_CASE][PASSED] - Test Cases/Test Case 1: Test Cases/Test Case 1
+
+2018-11-06 15:57:31 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-06 15:57:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-06 15:57:37 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://poc.netzon.se/patient/list' successfully
+
+2018-11-06 15:57:42 - [MESSAGE][PASSED] - Navigate to 'https://poc.netzon.se/patient/list' successfully
+
+2018-11-06 15:57:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Professional/Page_Professional/Page_Professional/div_Michael Bay' is clicked on
+
+2018-11-06 15:57:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Professional/Page_Professional/Page_Professional/div_Michael Bay' is clicked on
+
+2018-11-06 15:57:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Professional/Page_Professional/Page_Professional/div_Brie Larson' is clicked on
+
+2018-11-06 15:57:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Professional/Page_Professional/Page_Professional/div_Brie Larson' is clicked on
+
+2018-11-06 15:57:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Professional/Page_Professional/Page_Professional/span_brie.larsonmailinator.com' is clicked on
+
+2018-11-06 15:57:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Professional/Page_Professional/Page_Professional/span_brie.larsonmailinator.com' is clicked on
+
+2018-11-06 15:57:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Professional/Page_Professional/Page_Professional/div_Jessica Chastain' is clicked on
+
+2018-11-06 15:57:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Professional/Page_Professional/Page_Professional/div_Jessica Chastain' is clicked on
+
+2018-11-06 15:57:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Professional/Page_Professional/Page_Professional/div_James Franco  james.franco' is clicked on
+
+2018-11-06 15:57:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Professional/Page_Professional/Page_Professional/div_James Franco  james.franco' is clicked on
+
+2018-11-06 15:57:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Professional/Page_Professional/Page_Professional/div_Show Graph_mat-checkbox-in' is clicked on
+
+2018-11-06 15:57:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Professional/Page_Professional/Page_Professional/div_Show Graph_mat-checkbox-in' is clicked on
+
+2018-11-06 15:57:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Professional/Page_Professional/Page_Professional/img_Activities_ng-tns-c1-0' is clicked on
+
+2018-11-06 15:57:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Professional/Page_Professional/Page_Professional/img_Activities_ng-tns-c1-0' is clicked on
+
+2018-11-06 15:57:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Professional/Page_Professional/Page_Professional/button_Remove' is clicked on
+
+2018-11-06 15:57:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Professional/Page_Professional/Page_Professional/button_Remove' is clicked on
+
+2018-11-06 15:57:46 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-11-06 15:57:47 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-06 15:57:30 - [TEST_SUITE][PASSED] - Test Suite Case 1: Test Cases/Test Case 1]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

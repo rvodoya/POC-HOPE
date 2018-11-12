@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test Suite Case 1,,,2018-11-06 17:13:58,2018-11-06 17:14:11,13.505s,FAILED
+,,,,,,
+Test Cases/Delete Activity,,,2018-11-06 17:13:59,2018-11-06 17:14:08,9.552s,FAILED
+openBrowser,,,2018-11-06 17:14:00,2018-11-06 17:14:08,8.753s,FAILED
+,,,,,,
+Test Cases/Add Activity,,,2018-11-06 17:14:08,2018-11-06 17:14:11,2.875s,FAILED
+openBrowser,,,2018-11-06 17:14:09,2018-11-06 17:14:11,2.068s,FAILED
