@@ -31,3 +31,5 @@ WebUI.closeBrowser()
 
 WebUI.comment('TEST')
 
+WebUI.comment('test3')
+
