@@ -23,7 +23,7 @@ WebUI.click(findTestObject('Page_Professional/img_Activities_ng-tns-c1-0'))
 
 WebUI.click(findTestObject('Page_Professional/div_Blood Pressure_mat-select-'))
 
-WebUI.doubleClick(findTestObject('Page_Professional/span_Blood Pressure'))
+WebUI.click(findTestObject('Page_Professional/span_Blood Pressure'))
 
 WebUI.click(findTestObject('Page_Professional/button_Add'))
 
