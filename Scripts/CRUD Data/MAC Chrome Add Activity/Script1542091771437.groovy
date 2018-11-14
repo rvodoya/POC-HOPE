@@ -29,3 +29,5 @@ WebUI.delay(1)
 
 WebUI.closeBrowser()
 
+WebUI.comment('TEST')
+
