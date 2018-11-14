@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite Case 1" time="24" tests="1" failures="0" errors="0">
+   <testsuite name="Test Suite Case 1" tests="1" failures="0" errors="0" time="24" timestamp="2018-11-14 11:51:48" hostname="RVO - 192.168.1.120" id="Test Suites/Test Suite Case 1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/RVO/git/POC-HOPE/Reports/Test Suite Case 1/20181114_115146"/>
+         <property name="logFiles" value="/Users/RVO/git/POC-HOPE/Reports/Test Suite Case 1/20181114_115146/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="RVO - 192.168.1.120"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.8.6.1"/>
+         <property name="browser" value="Chrome 70.0.3538.102"/>
+         <property name="hostAddress" value="192.168.1.120"/>
+         <property name="sessionId" value="4a0f739d84faf47d03a2df71a4cede05"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/CRUD Data/Add Activity with Date" classname="Test Cases/CRUD Data/Add Activity with Date" status="PASSED">
+         <system-out><![CDATA[2018-11-14 11:51:48 - [TEST_CASE][PASSED] - Test Cases/CRUD Data/Add Activity with Date: Test Cases/CRUD Data/Add Activity with Date
+
+2018-11-14 11:51:49 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-14 11:51:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-14 11:51:53 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://staging.poc.netzon.se/patient/list' successfully
+
+2018-11-14 11:52:07 - [MESSAGE][PASSED] - Navigate to 'https://staging.poc.netzon.se/patient/list' successfully
+
+2018-11-14 11:52:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Professional/img_Activities_ng-tns-c1-0 (3) (1)' is clicked on
+
+2018-11-14 11:52:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Professional/img_Activities_ng-tns-c1-0 (3) (1)' is clicked on
+
+2018-11-14 11:52:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Professional/div_Type_mat-select-arrow (2) (1)' is clicked on
+
+2018-11-14 11:52:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Professional/div_Type_mat-select-arrow (2) (1)' is clicked on
+
+2018-11-14 11:52:07 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-14 11:52:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-14 11:52:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Professional/span_Blood Pressure (1)' is clicked on
+
+2018-11-14 11:52:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Professional/span_Blood Pressure (1)' is clicked on
+
+2018-11-14 11:52:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Professional/button_Date_mat-icon-button cd' is clicked on
+
+2018-11-14 11:52:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Professional/button_Date_mat-icon-button cd' is clicked on
+
+2018-11-14 11:52:08 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-14 11:52:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-14 11:52:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Professional/div_14 (1)' is clicked on
+
+2018-11-14 11:52:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Professional/div_14 (1)' is clicked on
+
+2018-11-14 11:52:09 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-14 11:52:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-14 11:52:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Professional/button_Add (3)' is clicked on
+
+2018-11-14 11:52:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Professional/button_Add (3)' is clicked on
+
+2018-11-14 11:52:10 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-14 11:52:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-14 11:52:12 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-11-14 11:52:13 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-14 11:51:48 - [TEST_SUITE][PASSED] - Test Suite Case 1: Test Cases/CRUD Data/Add Activity with Date]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
