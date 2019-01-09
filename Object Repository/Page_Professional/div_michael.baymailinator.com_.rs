@@ -3,11 +3,11 @@
    <description></description>
    <name>div_michael.baymailinator.com_</name>
    <tag></tag>
-   <elementGuidId>4a839eda-ba17-4828-b0e5-fa5916faf5ae</elementGuidId>
+   <elementGuidId>bda13ce8-1ab7-46de-bf9d-945d6722e179</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//mat-checkbox[@id='mat-checkbox-9']/label/div</value>
+         <value>//input[contains(@class, 'mat-checkbox-inner-container mat-checkbox-inner-container-no-side-margin')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -31,13 +31,13 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;mat-checkbox-9&quot;)/label[@class=&quot;mat-checkbox-layout&quot;]/div[@class=&quot;mat-checkbox-inner-container mat-checkbox-inner-container-no-side-margin&quot;]</value>
+      <value>id(&quot;mat-checkbox-1&quot;)/label[@class=&quot;mat-checkbox-layout&quot;]/div[@class=&quot;mat-checkbox-inner-container mat-checkbox-inner-container-no-side-margin&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <value>//mat-checkbox[@id='mat-checkbox-9']/label/div</value>
+      <value>//mat-checkbox[@id='mat-checkbox-1']/label/div</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -68,5 +68,17 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <value>//label/div</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <value>//mat-checkbox[@id='mat-checkbox-28']/label/div</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <value>//mat-checkbox[@id='mat-checkbox-9']/label/div</value>
    </webElementXpaths>
 </WebElementEntity>

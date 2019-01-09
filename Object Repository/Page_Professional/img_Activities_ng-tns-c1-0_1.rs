@@ -3,7 +3,7 @@
    <description></description>
    <name>img_Activities_ng-tns-c1-0_1</name>
    <tag></tag>
-   <elementGuidId>b90c39ec-f42b-4c73-bfc1-e835b382f492</elementGuidId>
+   <elementGuidId>502ecd2c-a71f-49db-8411-6e501c4fa21c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -62,12 +62,18 @@
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Planned: 2018-11-09 15:19'])[1]/preceding::img[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Planned: 2019-01-09 14:04'])[1]/preceding::img[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <value>//span[2]/img</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Planned: 2018-11-09 15:19'])[1]/preceding::img[2]</value>
    </webElementXpaths>
 </WebElementEntity>

@@ -3,7 +3,7 @@
    <description></description>
    <name>img_Activities_ng-tns-c1-0</name>
    <tag></tag>
-   <elementGuidId>e19e62d4-bdac-41e1-9e4d-a6e2e70e0bc9</elementGuidId>
+   <elementGuidId>637fda9c-a64c-4f98-9078-d19ec1844200</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -56,13 +56,13 @@
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Show Graph'])[1]/preceding::img[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Blood Pressure'])[1]/preceding::img[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Blood Pressure'])[1]/preceding::img[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Planned: 2019-01-09 14:35'])[1]/preceding::img[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,13 +92,31 @@
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Planned: 2018-11-09 13:36'])[1]/preceding::img[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Planned: 2019-01-09 14:47'])[1]/preceding::img[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <value>//span[3]/img</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Planned: 2019-01-09 14:49'])[1]/preceding::img[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Show Graph'])[1]/preceding::img[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Planned: 2018-11-09 13:36'])[1]/preceding::img[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

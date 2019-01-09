@@ -3,7 +3,7 @@
    <description></description>
    <name>button_Remove</name>
    <tag></tag>
-   <elementGuidId>0725af84-d770-420a-a0cc-c1d9926ee134</elementGuidId>
+   <elementGuidId>055dc4f1-6cb4-4fd1-9744-f7644fab9263</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -50,7 +50,7 @@
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Are you sure you want to remove this activities?'])[1]/following::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Are you sure you want to remove this activity?'])[1]/following::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,6 +74,6 @@
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Are you sure you want to remove this activity?'])[1]/following::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Are you sure you want to remove this activities?'])[1]/following::button[1]</value>
    </webElementXpaths>
 </WebElementEntity>

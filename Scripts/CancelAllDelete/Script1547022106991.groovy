@@ -15,21 +15,31 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://poc.netzon.se/patient/list')
+WebUI.navigateToUrl('https://staging.poc.netzon.se/patient/list')
 
-WebUI.click(findTestObject('Object Repository/Page_Professional/div_Jessica Chastain'))
+WebUI.click(findTestObject('Page_Professional/span_Jessica Chastain (1)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Professional/div_Brie Larson  brie.larsonma'))
+WebUI.click(findTestObject('Page_Professional/div_Jessica Chastain (2)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Professional/div_Jessica Chastain'))
+WebUI.click(findTestObject('Page_Professional/img_Activities_ng-tns-c1-0'))
 
-WebUI.click(findTestObject('Object Repository/Page_Professional/div_James Franco  james.franco'))
+WebUI.click(findTestObject('Page_Professional/div_Blood Pressure_mat-select-'))
 
-WebUI.click(findTestObject('Object Repository/Page_Professional/span_Show Graph (1)'))
+WebUI.delay(1)
 
-WebUI.delay(0)
+WebUI.click(findTestObject('Page_Professional/span_Blood Pressure'))
 
-WebUI.click(findTestObject('Object Repository/Page_Professional/span_Hide Graph'))
+WebUI.click(findTestObject('Page_Professional/button_Add'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Object Repository/Object Repository/deleteall_Checkbox'))
+
+WebUI.click(findTestObject('deleteImage'))
+
+WebUI.click(findTestObject('CancelDelete'))
+
+WebUI.delay(2)
 
 WebUI.closeBrowser()
 

@@ -3,11 +3,10 @@
    <description></description>
    <name>span</name>
    <tag></tag>
-   <elementGuidId>007d68d9-41c8-4e98-94b9-480ac49ed723</elementGuidId>
+   <elementGuidId>248ced0e-5904-4cde-9c1c-3a6265e27e33</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

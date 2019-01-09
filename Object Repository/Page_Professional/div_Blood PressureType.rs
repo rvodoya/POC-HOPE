@@ -3,7 +3,7 @@
    <description></description>
    <name>div_Blood PressureType</name>
    <tag></tag>
-   <elementGuidId>f2d7bbac-37c5-4f8a-ac60-c5383fb84f05</elementGuidId>
+   <elementGuidId>d97209a1-da2a-4261-9dc5-23fb308c05f3</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>

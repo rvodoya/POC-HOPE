@@ -3,7 +3,7 @@
    <description></description>
    <name>span_Hide Graph</name>
    <tag></tag>
-   <elementGuidId>57c00097-f481-4f04-a81c-24a865124ee9</elementGuidId>
+   <elementGuidId>bbc66239-640a-461f-9c08-c877e7db784b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -56,6 +56,24 @@
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Oct 18, 2018, 19:25'])[1]/preceding::span[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Oct 19, 2018, 20:45'])[1]/preceding::span[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <value>//div[2]/div/div[2]/span</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Nov 06, 2018, 15:14'])[1]/preceding::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
@@ -63,11 +81,5 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Nov 06, 2018, 15:15'])[1]/preceding::span[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <value>//div[2]/div/div[2]/span</value>
    </webElementXpaths>
 </WebElementEntity>

@@ -3,7 +3,7 @@
    <description></description>
    <name>span_Blood Pressure (3)</name>
    <tag></tag>
-   <elementGuidId>2bb4ebb3-0d47-48a4-8f16-adc1a56ce56b</elementGuidId>
+   <elementGuidId>a2973dff-199d-4670-9a14-c38cec69b1bc</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>

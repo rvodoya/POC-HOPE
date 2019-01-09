@@ -3,7 +3,7 @@
    <description></description>
    <name>div_TypeType</name>
    <tag></tag>
-   <elementGuidId>9ff38322-e0ea-41fa-b056-372a2b84bbd2</elementGuidId>
+   <elementGuidId>ade2ed5c-3504-4a2e-bc72-53e436ac96e3</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>

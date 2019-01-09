@@ -3,7 +3,7 @@
    <description></description>
    <name>div__clock-face__number clock-</name>
    <tag></tag>
-   <elementGuidId>ecb25db6-b88a-4d17-90b7-d3b2a2b1ea93</elementGuidId>
+   <elementGuidId>00bea970-b3c2-46a9-ae1d-3f75fd63949f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>

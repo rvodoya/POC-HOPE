@@ -12,20 +12,39 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.By as By
+import org.openqa.selenium.WebDriver as WebDriver
+import org.openqa.selenium.chrome.ChromeDriver as ChromeDriver
+import org.openqa.selenium.firefox.FirefoxDriver as FirefoxDriver
+import org.openqa.selenium.WebElement as WebElement
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+
+WebUI.delay(5)
 
 WebUI.openBrowser('')
 
+WebDriver driver = DriverFactory.getWebDriver()
+
 WebUI.navigateToUrl('https://staging.poc.netzon.se/patient/list')
 
-WebUI.click(findTestObject('Object Repository/Page_Professional/div_Jessica Chastain (2)'))
+WebUI.click(findTestObject('Page_Professional/img_Activities_ng-tns-c1-0'))
 
-WebUI.click(findTestObject('Object Repository/Page_Professional/div_michael.baymailinator.com_ (1)'))
+driver.findElement(By.xpath('//*[@id="mat-select-0"]/div/div[2]/div')).click()
 
-WebUI.click(findTestObject('Object Repository/Page_Professional/span_Activities_image-garbage'))
+WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/Page_Professional/button_Remove (1)'))
+driver.findElement(By.xpath('//*[@id="mat-option-0"]/span')).click()
 
-WebUI.delay(3)
+WebUI.delay(2)
+
+//WebUI.click(findTestObject('Page_Professional/button_Date_mat-icon-button cd (1)'))
+driver.findElement(By.xpath('//*[@id="mat-dialog-0"]/app-activity-add/div/div[2]/div[2]/mat-form-field/div/div[1]/div[2]/mat-datepicker-toggle/button')).click()
+
+WebUI.delay(2)
+
+driver.findElement(By.xpath('//div[text()=\'9\']')).click()
+
+WebUI.delay(2)
 
 WebUI.closeBrowser()
 

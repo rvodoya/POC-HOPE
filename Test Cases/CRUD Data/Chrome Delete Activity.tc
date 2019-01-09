@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Delete Activity</name>
+   <name>Chrome Delete Activity</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>e591a0df-209d-4a09-bd45-e246a1a2a64c</testCaseGuid>
+   <testCaseGuid>5d55530e-ee1b-4e35-9e02-fef3125cddcb</testCaseGuid>
 </TestCaseEntity>

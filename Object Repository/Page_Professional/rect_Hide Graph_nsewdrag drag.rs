@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>rect_Hide Graph_nsewdrag drag</name>
+   <tag></tag>
+   <elementGuidId>888689ad-05f3-4bc8-84f0-85f53cee2827</elementGuidId>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>rect</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>nsewdrag drag cursor-crosshair</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-subplot</name>
+      <type>Main</type>
+      <value>xy</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>x</name>
+      <type>Main</type>
+      <value>80</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>y</name>
+      <type>Main</type>
+      <value>100</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>width</name>
+      <type>Main</type>
+      <value>300</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>height</name>
+      <type>Main</type>
+      <value>257</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/app-root[1]/div[@class=&quot;outlet-container&quot;]/app-patient-list[@class=&quot;ng-tns-c1-0 ng-star-inserted&quot;]/div[@class=&quot;main-container&quot;]/div[@class=&quot;main-wrapper&quot;]/div[@class=&quot;body-container flex-main-center&quot;]/div[@class=&quot;body-wrapper&quot;]/div[@class=&quot;list-container&quot;]/div[@class=&quot;activity-list-wrapper&quot;]/div[@class=&quot;activity-graph-body flex-main-center ng-tns-c1-0 ng-star-inserted&quot;]/div[@class=&quot;graph-container&quot;]/plotly-plot[@class=&quot;ng-tns-c1-0&quot;]/div[@class=&quot;js-plotly-plot&quot;]/div[@class=&quot;plot-container plotly&quot;]/div[@class=&quot;svg-container&quot;]/svg[@class=&quot;main-svg&quot;]/g[@class=&quot;draglayer cursor-crosshair&quot;]/g[@class=&quot;xy&quot;]/rect[@class=&quot;nsewdrag drag cursor-crosshair&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

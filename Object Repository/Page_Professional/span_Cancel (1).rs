@@ -3,7 +3,7 @@
    <description></description>
    <name>span_Cancel (1)</name>
    <tag></tag>
-   <elementGuidId>5c952690-229f-4432-b4fd-bdaa31a563e5</elementGuidId>
+   <elementGuidId>bac5441e-a1ce-421c-b0ce-7a9aa607e01f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>

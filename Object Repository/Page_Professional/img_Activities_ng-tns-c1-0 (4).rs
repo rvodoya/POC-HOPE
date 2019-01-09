@@ -3,7 +3,7 @@
    <description></description>
    <name>img_Activities_ng-tns-c1-0 (4)</name>
    <tag></tag>
-   <elementGuidId>0bfb58a6-51e8-43ba-a446-0e648f894007</elementGuidId>
+   <elementGuidId>2a5907d3-86c6-4ce0-ba6e-92fa53553742</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>

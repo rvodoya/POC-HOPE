@@ -3,7 +3,7 @@
    <description></description>
    <name>path_1</name>
    <tag></tag>
-   <elementGuidId>432fdd64-1b47-462d-bbe5-55eab0338a1f</elementGuidId>
+   <elementGuidId>e142d822-3767-4b4d-beaa-546368dfee9c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>

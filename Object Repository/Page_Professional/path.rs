@@ -3,7 +3,7 @@
    <description></description>
    <name>path</name>
    <tag></tag>
-   <elementGuidId>6a7ac40e-2eb8-448a-8d0e-6b5df139a4e2</elementGuidId>
+   <elementGuidId>768598c5-c640-490b-894f-1e287b6b9039</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -30,6 +30,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;mat-dialog-0&quot;)/app-activity-add[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;content-container&quot;]/div[@class=&quot;body-container&quot;]/div[@class=&quot;datepicker-container&quot;]/mat-form-field[@class=&quot;mat-form-field ng-tns-c5-4 mat-primary mat-form-field-type-mat-input mat-form-field-appearance-legacy mat-form-field-can-float mat-form-field-hide-placeholder ng-pristine ng-valid mat-form-field-should-float ng-touched&quot;]/div[@class=&quot;mat-form-field-wrapper&quot;]/div[@class=&quot;mat-form-field-flex&quot;]/div[@class=&quot;mat-form-field-suffix ng-tns-c5-4 ng-star-inserted&quot;]/mat-datepicker-toggle[@class=&quot;mat-datepicker-toggle&quot;]/button[@class=&quot;mat-icon-button cdk-focused cdk-mouse-focused&quot;]/span[@class=&quot;mat-button-wrapper&quot;]/svg[@class=&quot;mat-datepicker-toggle-default-icon ng-star-inserted&quot;]/path[2]</value>
+      <value>id(&quot;mat-dialog-0&quot;)/app-activity-add[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;content-container&quot;]/div[@class=&quot;body-container&quot;]/div[@class=&quot;datepicker-container&quot;]/mat-form-field[@class=&quot;mat-form-field ng-tns-c5-4 mat-primary mat-form-field-type-mat-input mat-form-field-appearance-legacy mat-form-field-can-float mat-form-field-hide-placeholder ng-untouched ng-pristine ng-valid mat-form-field-should-float&quot;]/div[@class=&quot;mat-form-field-wrapper&quot;]/div[@class=&quot;mat-form-field-flex&quot;]/div[@class=&quot;mat-form-field-suffix ng-tns-c5-4 ng-star-inserted&quot;]/mat-datepicker-toggle[@class=&quot;mat-datepicker-toggle&quot;]/button[@class=&quot;mat-icon-button cdk-focused cdk-mouse-focused&quot;]/span[@class=&quot;mat-button-wrapper&quot;]/svg[@class=&quot;mat-datepicker-toggle-default-icon ng-star-inserted&quot;]/path[2]</value>
    </webElementProperties>
 </WebElementEntity>

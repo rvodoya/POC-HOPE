@@ -3,15 +3,13 @@
    <description></description>
    <name>mat-icon-button</name>
    <tag></tag>
-   <elementGuidId>fdf9f1f5-734f-4f9a-904a-ec27e8e34b06</elementGuidId>
+   <elementGuidId>6514a90b-f90f-4ad7-bb67-1f86f7886ec7</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value></value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

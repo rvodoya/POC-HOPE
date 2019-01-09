@@ -3,11 +3,10 @@
    <description></description>
    <name>svg_Date_mat-datepicker-toggle (2)</name>
    <tag></tag>
-   <elementGuidId>9c4555b0-3689-40b0-af19-59f927381619</elementGuidId>
+   <elementGuidId>0320cad4-f3ce-4a8c-9f24-3b84271aeaa4</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

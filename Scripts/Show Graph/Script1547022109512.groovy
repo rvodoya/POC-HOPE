@@ -12,29 +12,24 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://poc.netzon.se/patient/list')
 
-WebUI.click(findTestObject('Object Repository/Page_Professional/Page_Professional/Page_Professional/div_Michael Bay'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Object Repository/Page_Professional/Page_Professional/Page_Professional/div_Brie Larson'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Object Repository/Page_Professional/Page_Professional/Page_Professional/span_brie.larsonmailinator.com'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Object Repository/Page_Professional/Page_Professional/Page_Professional/div_Jessica Chastain'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Object Repository/Page_Professional/Page_Professional/Page_Professional/div_James Franco  james.franco'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Object Repository/Page_Professional/Page_Professional/Page_Professional/div_Show Graph_mat-checkbox-in'))
+WebUI.delay(3)
 
-WebUI.click(findTestObject('Object Repository/Page_Professional/Page_Professional/Page_Professional/img_Activities_ng-tns-c1-0'))
-
-WebUI.click(findTestObject('Object Repository/Page_Professional/Page_Professional/Page_Professional/button_Remove'))
-
-WebUI.delay(2)
+WebUI.click(findTestObject('null'))
 
 WebUI.closeBrowser()
 

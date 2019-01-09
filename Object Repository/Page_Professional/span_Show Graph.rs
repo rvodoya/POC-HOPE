@@ -3,7 +3,7 @@
    <description></description>
    <name>span_Show Graph</name>
    <tag></tag>
-   <elementGuidId>efbbf547-2020-44d2-8369-2afb2eecbae7</elementGuidId>
+   <elementGuidId>387139a5-00cf-4e6f-983e-f1abb4b923d2</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>

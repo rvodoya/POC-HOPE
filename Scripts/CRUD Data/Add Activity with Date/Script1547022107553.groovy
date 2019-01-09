@@ -15,23 +15,27 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://poc.netzon.se/patient/list')
+WebUI.navigateToUrl('https://staging.poc.netzon.se/patient/list')
 
-WebUI.click(findTestObject('Page_Professional/img_Activities_ng-tns-c1-0'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Page_Professional/div_Type_mat-select-arrow'))
-
-WebUI.click(findTestObject('Page_Professional/span_Blood Pressure'))
-
-WebUI.click(findTestObject('Page_Professional/button_Add'))
+WebUI.click(findTestObject('null'))
 
 WebUI.delay(1)
 
+WebUI.click(findTestObject('null'))
+
+WebUI.click(findTestObject('null'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('null'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('null'))
+
+WebUI.delay(2)
+
 WebUI.closeBrowser()
-
-WebUI.comment('TEST')
-
-WebUI.comment('test3')
-
-WebUI.comment('test4')
 

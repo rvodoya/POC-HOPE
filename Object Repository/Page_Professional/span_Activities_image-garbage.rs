@@ -3,7 +3,7 @@
    <description></description>
    <name>span_Activities_image-garbage</name>
    <tag></tag>
-   <elementGuidId>011cfe72-3643-4fad-a486-7402b04b9097</elementGuidId>
+   <elementGuidId>8e995a0d-c2e1-4846-89c1-838e941217ff</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -69,12 +69,18 @@
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Planned: 2018-11-09 15:19'])[1]/preceding::span[4]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Planned: 2019-01-18 14:13'])[1]/preceding::span[4]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <value>//span[3]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Planned: 2018-11-09 15:19'])[1]/preceding::span[4]</value>
    </webElementXpaths>
 </WebElementEntity>

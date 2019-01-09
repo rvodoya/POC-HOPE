@@ -3,7 +3,7 @@
    <description></description>
    <name>img_james.francomailinator.com</name>
    <tag></tag>
-   <elementGuidId>a8b74da7-6f8b-41d5-ba6b-b3a3355c5781</elementGuidId>
+   <elementGuidId>888349b5-313c-4b5a-b621-1eb98608341b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>

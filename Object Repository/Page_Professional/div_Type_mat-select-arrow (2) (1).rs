@@ -3,7 +3,7 @@
    <description></description>
    <name>div_Type_mat-select-arrow (2) (1)</name>
    <tag></tag>
-   <elementGuidId>d2f86a95-cfa5-42f0-b396-48247542912d</elementGuidId>
+   <elementGuidId>e558947c-e234-40b9-a077-690baa023737</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
