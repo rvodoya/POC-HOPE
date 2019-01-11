@@ -47,7 +47,7 @@ WebUI.click(findTestObject('Page_Professional/span_Ok (1)'))
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Page_Professional/button_Add (3) (1)'))
+WebUI.click(findTestObject('AddButton'))
 
 WebUI.delay(2)
 

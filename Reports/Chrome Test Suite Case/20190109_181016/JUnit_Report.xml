@@ -1,0 +1,795 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Chrome Test Suite Case" time="159" tests="7" failures="2" errors="0">
+   <testsuite name="Chrome Test Suite Case" tests="7" failures="2" errors="0" time="159" timestamp="2019-01-09 18:10:26" hostname="netzon.rhobert - netzon-jlaw" id="Test Suites/Chrome Test Suite Case">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\netzon.rhobert\\git\\POC HOPE\\Reports\\Chrome Test Suite Case\\20190109_181016"/>
+         <property name="logFiles" value="C:\\Users\\netzon.rhobert\\git\\POC HOPE\\Reports\\Chrome Test Suite Case\\20190109_181016\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\netzon.rhobert\\git\\POC HOPE\\Reports\\Chrome Test Suite Case\\20190109_181016\\1547028642156.png, C:\\Users\\netzon.rhobert\\git\\POC HOPE\\Reports\\Chrome Test Suite Case\\20190109_181016\\1547028754060.png"/>
+         <property name="hostName" value="netzon.rhobert - netzon-jlaw"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="10.0.75.1"/>
+         <property name="sessionId" value="85ab04e98dd043029cfad5627f0688ab"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/CRUD Data/Add Activity with Date" classname="Test Cases/CRUD Data/Add Activity with Date" status="FAILED">
+         <failure type="FAILED" message="Test Cases/CRUD Data/Add Activity with Date FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Add Activity with Date.run(Add Activity with Date:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547028621259.run(TempTestSuite1547028621259.groovy:36)
+"/>
+         <system-out><![CDATA[2019-01-09 18:10:27 - [TEST_CASE][FAILED] - Test Cases/CRUD Data/Add Activity with Date: Test Cases/CRUD Data/Add Activity with Date FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Add Activity with Date.run(Add Activity with Date:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547028621259.run(TempTestSuite1547028621259.groovy:36)
+
+
+2019-01-09 18:10:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-09 18:10:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-09 18:10:29 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-01-09 18:10:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-09 18:10:35 - [TEST_STEP][PASSED] - navigateToUrl("https://staging.poc.netzon.se/patient/list"): Navigate to 'https://staging.poc.netzon.se/patient/list' successfully
+
+2019-01-09 18:10:42 - [MESSAGE][PASSED] - Navigate to 'https://staging.poc.netzon.se/patient/list' successfully
+
+2019-01-09 18:10:42 - [TEST_STEP][FAILED] - click(findTestObject("null")): click(findTestObject("null")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Add Activity with Date.run(Add Activity with Date:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547028621259.run(TempTestSuite1547028621259.groovy:36)
+
+
+2019-01-09 18:10:42 - [MESSAGE][WARNING] - Test object with id 'Object Repository/null' does not exist
+
+2019-01-09 18:10:42 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-01-09 18:10:42 - [MESSAGE][FAILED] - Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+[[ATTACHMENT|C:\\Users\\netzon.rhobert\\git\\POC HOPE\\Reports\\Chrome Test Suite Case\\20190109_181016\\1547028642156.png]]
+
+2019-01-09 18:10:42 - [MESSAGE][FAILED] - click(findTestObject("null")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Add Activity with Date.run(Add Activity with Date:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547028621259.run(TempTestSuite1547028621259.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-01-09 18:10:27 - [TEST_CASE][FAILED] - Test Cases/CRUD Data/Add Activity with Date: Test Cases/CRUD Data/Add Activity with Date FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Add Activity with Date.run(Add Activity with Date:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547028621259.run(TempTestSuite1547028621259.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CRUD Data/Add Activity with Time and Date" classname="Test Cases/CRUD Data/Add Activity with Time and Date" status="PASSED">
+         <system-out><![CDATA[2019-01-09 18:10:42 - [TEST_CASE][PASSED] - Test Cases/CRUD Data/Add Activity with Time and Date: Test Cases/CRUD Data/Add Activity with Time and Date
+
+2019-01-09 18:10:43 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-09 18:10:43 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-01-09 18:10:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-09 18:10:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-09 18:10:47 - [TEST_STEP][PASSED] - navigateToUrl("https://staging.poc.netzon.se/patient/list"): Navigate to 'https://staging.poc.netzon.se/patient/list' successfully
+
+2019-01-09 18:10:52 - [MESSAGE][PASSED] - Navigate to 'https://staging.poc.netzon.se/patient/list' successfully
+
+2019-01-09 18:10:52 - [TEST_STEP][PASSED] - click(findTestObject("Page_Professional/div_Jessica Chastain")): Object: 'Object Repository/Page_Professional/div_Jessica Chastain' is clicked on
+
+2019-01-09 18:10:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Professional/div_Jessica Chastain' is clicked on
+
+2019-01-09 18:10:52 - [TEST_STEP][PASSED] - click(findTestObject("Page_Professional/img_Activities_ng-tns-c1-0 (3) (1) (1)")): Object: 'Object Repository/Page_Professional/img_Activities_ng-tns-c1-0 (3) (1) (1)' is clicked on
+
+2019-01-09 18:10:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Professional/img_Activities_ng-tns-c1-0 (3) (1) (1)' is clicked on
+
+2019-01-09 18:10:53 - [TEST_STEP][PASSED] - click(findTestObject("Page_Professional/div_Type_mat-select-arrow (2) (1) (1)")): Object: 'Object Repository/Page_Professional/div_Type_mat-select-arrow (2) (1) (1)' is clicked on
+
+2019-01-09 18:10:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Professional/div_Type_mat-select-arrow (2) (1) (1)' is clicked on
+
+2019-01-09 18:10:54 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-09 18:10:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-09 18:10:55 - [TEST_STEP][PASSED] - click(findTestObject("Page_Professional/span_Blood Pressure (3) (1)")): Object: 'Object Repository/Page_Professional/span_Blood Pressure (3) (1)' is clicked on
+
+2019-01-09 18:10:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Professional/span_Blood Pressure (3) (1)' is clicked on
+
+2019-01-09 18:10:56 - [TEST_STEP][PASSED] - click(findTestObject("Page_Professional/button_Date_mat-icon-button cd (1)")): Object: 'Object Repository/Page_Professional/button_Date_mat-icon-button cd (1)' is clicked on
+
+2019-01-09 18:10:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Professional/button_Date_mat-icon-button cd (1)' is clicked on
+
+2019-01-09 18:10:56 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-09 18:10:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-09 18:10:57 - [TEST_STEP][PASSED] - click(findTestObject("Page_Professional/div_14 (1) (1)")): Object: 'Object Repository/Page_Professional/div_14 (1) (1)' is clicked on
+
+2019-01-09 18:10:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Professional/div_14 (1) (1)' is clicked on
+
+2019-01-09 18:10:57 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-09 18:10:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-09 18:10:58 - [TEST_STEP][PASSED] - click(findTestObject("Page_Professional/mat-icon_access_time (1)")): Object: 'Object Repository/Page_Professional/mat-icon_access_time (1)' is clicked on
+
+2019-01-09 18:11:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Professional/mat-icon_access_time (1)' is clicked on
+
+2019-01-09 18:11:00 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-09 18:11:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-09 18:11:01 - [TEST_STEP][PASSED] - click(findTestObject("Page_Professional/span_14 (1)")): Object: 'Object Repository/Page_Professional/span_14 (1)' is clicked on
+
+2019-01-09 18:11:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Professional/span_14 (1)' is clicked on
+
+2019-01-09 18:11:01 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-09 18:11:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-09 18:11:02 - [TEST_STEP][PASSED] - click(findTestObject("Page_Professional/span_Ok (1)")): Object: 'Object Repository/Page_Professional/span_Ok (1)' is clicked on
+
+2019-01-09 18:11:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Professional/span_Ok (1)' is clicked on
+
+2019-01-09 18:11:02 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-09 18:11:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-09 18:11:03 - [TEST_STEP][PASSED] - click(findTestObject("Page_Professional/button_Add (3) (1)")): Object: 'Object Repository/Page_Professional/button_Add (3) (1)' is clicked on
+
+2019-01-09 18:11:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Professional/button_Add (3) (1)' is clicked on
+
+2019-01-09 18:11:04 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-01-09 18:11:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-09 18:11:06 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-09 18:11:07 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CRUD Data/Chrome Add Activity" classname="Test Cases/CRUD Data/Chrome Add Activity" status="PASSED">
+         <system-out><![CDATA[2019-01-09 18:11:07 - [TEST_CASE][PASSED] - Test Cases/CRUD Data/Chrome Add Activity: Test Cases/CRUD Data/Chrome Add Activity
+
+2019-01-09 18:11:07 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-09 18:11:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-09 18:11:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-09 18:11:10 - [TEST_STEP][PASSED] - navigateToUrl("https://staging.poc.netzon.se/patient/list"): Navigate to 'https://staging.poc.netzon.se/patient/list' successfully
+
+2019-01-09 18:11:15 - [MESSAGE][PASSED] - Navigate to 'https://staging.poc.netzon.se/patient/list' successfully
+
+2019-01-09 18:11:15 - [TEST_STEP][PASSED] - click(findTestObject("Page_Professional/div_Jessica Chastain (2)")): Object: 'Object Repository/Page_Professional/div_Jessica Chastain (2)' is clicked on
+
+2019-01-09 18:11:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Professional/div_Jessica Chastain (2)' is clicked on
+
+2019-01-09 18:11:15 - [TEST_STEP][PASSED] - click(findTestObject("PlusSymbol")): Object: 'Object Repository/PlusSymbol' is clicked on
+
+2019-01-09 18:11:16 - [MESSAGE][PASSED] - Object: 'Object Repository/PlusSymbol' is clicked on
+
+2019-01-09 18:11:16 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Page_Professional/div_Blood Pressure_mat-select-")): Object: 'Object Repository/Page_Professional/div_Blood Pressure_mat-select-' is double clicked on
+
+2019-01-09 18:11:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Professional/div_Blood Pressure_mat-select-' is double clicked on
+
+2019-01-09 18:11:17 - [TEST_STEP][PASSED] - click(findTestObject("Page_Professional/span_Blood Pressure")): Object: 'Object Repository/Page_Professional/span_Blood Pressure' is clicked on
+
+2019-01-09 18:11:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Professional/span_Blood Pressure' is clicked on
+
+2019-01-09 18:11:18 - [TEST_STEP][PASSED] - click(findTestObject("Page_Professional/button_Add")): Object: 'Object Repository/Page_Professional/button_Add' is clicked on
+
+2019-01-09 18:11:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Professional/button_Add' is clicked on
+
+2019-01-09 18:11:18 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-09 18:11:21 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-09 18:11:21 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-09 18:11:22 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CRUD Data/Chrome Delete Activity" classname="Test Cases/CRUD Data/Chrome Delete Activity" status="PASSED">
+         <system-out><![CDATA[2019-01-09 18:11:22 - [TEST_CASE][PASSED] - Test Cases/CRUD Data/Chrome Delete Activity: Test Cases/CRUD Data/Chrome Delete Activity
+
+2019-01-09 18:11:23 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-09 18:11:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-09 18:11:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-09 18:11:25 - [TEST_STEP][PASSED] - navigateToUrl("https://staging.poc.netzon.se/patient/list"): Navigate to 'https://staging.poc.netzon.se/patient/list' successfully
+
+2019-01-09 18:11:31 - [MESSAGE][PASSED] - Navigate to 'https://staging.poc.netzon.se/patient/list' successfully
+
+2019-01-09 18:11:31 - [TEST_STEP][PASSED] - click(findTestObject("Page_Professional/div_Michael Bay")): Object: 'Object Repository/Page_Professional/div_Michael Bay' is clicked on
+
+2019-01-09 18:11:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Professional/div_Michael Bay' is clicked on
+
+2019-01-09 18:11:31 - [TEST_STEP][PASSED] - click(findTestObject("Page_Professional/div_Brie Larson (1)")): Object: 'Object Repository/Page_Professional/div_Brie Larson (1)' is clicked on
+
+2019-01-09 18:11:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Professional/div_Brie Larson (1)' is clicked on
+
+2019-01-09 18:11:32 - [TEST_STEP][PASSED] - click(findTestObject("Page_Professional/span_brie.larsonmailinator.com")): Object: 'Object Repository/Page_Professional/span_brie.larsonmailinator.com' is clicked on
+
+2019-01-09 18:11:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Professional/span_brie.larsonmailinator.com' is clicked on
+
+2019-01-09 18:11:32 - [TEST_STEP][PASSED] - click(findTestObject("Page_Professional/div_Jessica Chastain (3)")): Object: 'Object Repository/Page_Professional/div_Jessica Chastain (3)' is clicked on
+
+2019-01-09 18:11:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Professional/div_Jessica Chastain (3)' is clicked on
+
+2019-01-09 18:11:32 - [TEST_STEP][PASSED] - click(findTestObject("Page_Professional/div_Jessica Chastain (2)")): Object: 'Object Repository/Page_Professional/div_Jessica Chastain (2)' is clicked on
+
+2019-01-09 18:11:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Professional/div_Jessica Chastain (2)' is clicked on
+
+2019-01-09 18:11:32 - [TEST_STEP][PASSED] - click(findTestObject("Page_Professional/img_Activities_ng-tns-c1-0")): Object: 'Object Repository/Page_Professional/img_Activities_ng-tns-c1-0' is clicked on
+
+2019-01-09 18:11:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Professional/img_Activities_ng-tns-c1-0' is clicked on
+
+2019-01-09 18:11:33 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Page_Professional/div_Blood Pressure_mat-select-")): Object: 'Object Repository/Page_Professional/div_Blood Pressure_mat-select-' is double clicked on
+
+2019-01-09 18:11:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Professional/div_Blood Pressure_mat-select-' is double clicked on
+
+2019-01-09 18:11:34 - [TEST_STEP][PASSED] - click(findTestObject("Page_Professional/span_Blood Pressure")): Object: 'Object Repository/Page_Professional/span_Blood Pressure' is clicked on
+
+2019-01-09 18:11:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Professional/span_Blood Pressure' is clicked on
+
+2019-01-09 18:11:34 - [TEST_STEP][PASSED] - click(findTestObject("Page_Professional/button_Add")): Object: 'Object Repository/Page_Professional/button_Add' is clicked on
+
+2019-01-09 18:11:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Professional/button_Add' is clicked on
+
+2019-01-09 18:11:34 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-09 18:11:37 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-09 18:11:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/2ndcheckbox")): Object: 'Object Repository/2ndcheckbox' is clicked on
+
+2019-01-09 18:11:38 - [MESSAGE][PASSED] - Object: 'Object Repository/2ndcheckbox' is clicked on
+
+2019-01-09 18:11:38 - [TEST_STEP][PASSED] - click(findTestObject("Page_Professional/img_Activities_ng-tns-c1-0 (5)")): Object: 'Object Repository/Page_Professional/img_Activities_ng-tns-c1-0 (5)' is clicked on
+
+2019-01-09 18:11:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Professional/img_Activities_ng-tns-c1-0 (5)' is clicked on
+
+2019-01-09 18:11:38 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-09 18:11:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-09 18:11:39 - [TEST_STEP][PASSED] - click(findTestObject("RemoveButton")): Object: 'Object Repository/RemoveButton' is clicked on
+
+2019-01-09 18:11:39 - [MESSAGE][PASSED] - Object: 'Object Repository/RemoveButton' is clicked on
+
+2019-01-09 18:11:39 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-01-09 18:11:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-09 18:11:41 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-09 18:11:42 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CRUD Data/Chrome Trial Test Case" classname="Test Cases/CRUD Data/Chrome Trial Test Case" status="PASSED">
+         <system-out><![CDATA[2019-01-09 18:11:42 - [TEST_CASE][PASSED] - Test Cases/CRUD Data/Chrome Trial Test Case: Test Cases/CRUD Data/Chrome Trial Test Case
+
+2019-01-09 18:11:42 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-01-09 18:11:47 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-09 18:11:47 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-09 18:11:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-09 18:11:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-09 18:11:50 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-01-09 18:11:50 - [TEST_STEP][PASSED] - navigateToUrl("https://staging.poc.netzon.se/patient/list"): Navigate to 'https://staging.poc.netzon.se/patient/list' successfully
+
+2019-01-09 18:11:57 - [MESSAGE][PASSED] - Navigate to 'https://staging.poc.netzon.se/patient/list' successfully
+
+2019-01-09 18:11:57 - [TEST_STEP][PASSED] - click(findTestObject("Page_Professional/img_Activities_ng-tns-c1-0")): Object: 'Object Repository/Page_Professional/img_Activities_ng-tns-c1-0' is clicked on
+
+2019-01-09 18:11:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Professional/img_Activities_ng-tns-c1-0' is clicked on
+
+2019-01-09 18:11:58 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Page_Professional/div_Blood Pressure_mat-select-")): Object: 'Object Repository/Page_Professional/div_Blood Pressure_mat-select-' is double clicked on
+
+2019-01-09 18:11:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Professional/div_Blood Pressure_mat-select-' is double clicked on
+
+2019-01-09 18:11:59 - [TEST_STEP][PASSED] - click(findTestObject("Page_Professional/span_Blood Pressure")): Object: 'Object Repository/Page_Professional/span_Blood Pressure' is clicked on
+
+2019-01-09 18:11:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Professional/span_Blood Pressure' is clicked on
+
+2019-01-09 18:11:59 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-01-09 18:12:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-09 18:12:01 - [TEST_STEP][PASSED] - xpath("//*[@id="mat-dialog-0"]/app-activity-add/div/div[2]/div[2]/mat-form-field/div/div[1]/div[2]/mat-datepicker-toggle/button")).click(): null
+
+2019-01-09 18:12:01 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-01-09 18:12:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-09 18:12:03 - [TEST_STEP][PASSED] - xpath("//div[text()='9']")).click(): null
+
+2019-01-09 18:12:04 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-01-09 18:12:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-09 18:12:06 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-09 18:12:06 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CRUD Data/Delete all Activity" classname="Test Cases/CRUD Data/Delete all Activity" status="PASSED">
+         <system-out><![CDATA[2019-01-09 18:12:07 - [TEST_CASE][PASSED] - Test Cases/CRUD Data/Delete all Activity: Test Cases/CRUD Data/Delete all Activity
+
+2019-01-09 18:12:07 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-09 18:12:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-09 18:12:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-09 18:12:09 - [TEST_STEP][PASSED] - navigateToUrl("https://staging.poc.netzon.se/patient/list"): Navigate to 'https://staging.poc.netzon.se/patient/list' successfully
+
+2019-01-09 18:12:15 - [MESSAGE][PASSED] - Navigate to 'https://staging.poc.netzon.se/patient/list' successfully
+
+2019-01-09 18:12:15 - [TEST_STEP][PASSED] - click(findTestObject("Page_Professional/span_Jessica Chastain (1)")): Object: 'Object Repository/Page_Professional/span_Jessica Chastain (1)' is clicked on
+
+2019-01-09 18:12:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Professional/span_Jessica Chastain (1)' is clicked on
+
+2019-01-09 18:12:15 - [TEST_STEP][PASSED] - click(findTestObject("Page_Professional/div_Jessica Chastain (2)")): Object: 'Object Repository/Page_Professional/div_Jessica Chastain (2)' is clicked on
+
+2019-01-09 18:12:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Professional/div_Jessica Chastain (2)' is clicked on
+
+2019-01-09 18:12:15 - [TEST_STEP][PASSED] - click(findTestObject("Page_Professional/img_Activities_ng-tns-c1-0")): Object: 'Object Repository/Page_Professional/img_Activities_ng-tns-c1-0' is clicked on
+
+2019-01-09 18:12:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Professional/img_Activities_ng-tns-c1-0' is clicked on
+
+2019-01-09 18:12:16 - [TEST_STEP][PASSED] - click(findTestObject("Page_Professional/div_Blood Pressure_mat-select-")): Object: 'Object Repository/Page_Professional/div_Blood Pressure_mat-select-' is clicked on
+
+2019-01-09 18:12:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Professional/div_Blood Pressure_mat-select-' is clicked on
+
+2019-01-09 18:12:17 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-09 18:12:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-09 18:12:18 - [TEST_STEP][PASSED] - click(findTestObject("Page_Professional/span_Blood Pressure")): Object: 'Object Repository/Page_Professional/span_Blood Pressure' is clicked on
+
+2019-01-09 18:12:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Professional/span_Blood Pressure' is clicked on
+
+2019-01-09 18:12:18 - [TEST_STEP][PASSED] - click(findTestObject("Page_Professional/button_Add")): Object: 'Object Repository/Page_Professional/button_Add' is clicked on
+
+2019-01-09 18:12:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Professional/button_Add' is clicked on
+
+2019-01-09 18:12:18 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-09 18:12:21 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-09 18:12:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Object Repository/deleteall_Checkbox")): Object: 'Object Repository/Object Repository/deleteall_Checkbox' is clicked on
+
+2019-01-09 18:12:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Repository/deleteall_Checkbox' is clicked on
+
+2019-01-09 18:12:22 - [TEST_STEP][PASSED] - click(findTestObject("deleteImage")): Object: 'Object Repository/deleteImage' is clicked on
+
+2019-01-09 18:12:22 - [MESSAGE][PASSED] - Object: 'Object Repository/deleteImage' is clicked on
+
+2019-01-09 18:12:22 - [TEST_STEP][PASSED] - click(findTestObject("CancelDelete")): Object: 'Object Repository/CancelDelete' is clicked on
+
+2019-01-09 18:12:22 - [MESSAGE][PASSED] - Object: 'Object Repository/CancelDelete' is clicked on
+
+2019-01-09 18:12:22 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-01-09 18:12:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-09 18:12:24 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-09 18:12:25 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Show Graph" classname="Test Cases/Show Graph" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Show Graph FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Show Graph.run(Show Graph:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547028621259.run(TempTestSuite1547028621259.groovy:36)
+"/>
+         <system-out><![CDATA[2019-01-09 18:12:25 - [TEST_CASE][FAILED] - Test Cases/Show Graph: Test Cases/Show Graph FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Show Graph.run(Show Graph:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547028621259.run(TempTestSuite1547028621259.groovy:36)
+
+
+2019-01-09 18:12:25 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-09 18:12:25 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-09 18:12:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-09 18:12:28 - [TEST_STEP][PASSED] - navigateToUrl("https://poc.netzon.se/patient/list"): Navigate to 'https://poc.netzon.se/patient/list' successfully
+
+2019-01-09 18:12:34 - [MESSAGE][PASSED] - Navigate to 'https://poc.netzon.se/patient/list' successfully
+
+2019-01-09 18:12:34 - [TEST_STEP][FAILED] - click(findTestObject("null")): click(findTestObject("null")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Show Graph.run(Show Graph:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547028621259.run(TempTestSuite1547028621259.groovy:36)
+
+
+2019-01-09 18:12:34 - [MESSAGE][WARNING] - Test object with id 'Object Repository/null' does not exist
+
+2019-01-09 18:12:34 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-01-09 18:12:34 - [MESSAGE][FAILED] - Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+[[ATTACHMENT|C:\\Users\\netzon.rhobert\\git\\POC HOPE\\Reports\\Chrome Test Suite Case\\20190109_181016\\1547028754060.png]]
+
+2019-01-09 18:12:34 - [MESSAGE][FAILED] - click(findTestObject("null")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Show Graph.run(Show Graph:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547028621259.run(TempTestSuite1547028621259.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-01-09 18:12:25 - [TEST_CASE][FAILED] - Test Cases/Show Graph: Test Cases/Show Graph FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Show Graph.run(Show Graph:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547028621259.run(TempTestSuite1547028621259.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CRUD Data/BlankAddName" classname="Test Cases/CRUD Data/BlankAddName" status="PASSED">
+         <system-out><![CDATA[2019-01-09 18:12:34 - [TEST_CASE][PASSED] - Test Cases/CRUD Data/BlankAddName: Test Cases/CRUD Data/BlankAddName
+
+2019-01-09 18:12:34 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-09 18:12:34 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-01-09 18:12:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-09 18:12:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-09 18:12:38 - [TEST_STEP][PASSED] - navigateToUrl("https://staging.poc.netzon.se/patient/list"): Navigate to 'https://staging.poc.netzon.se/patient/list' successfully
+
+2019-01-09 18:12:43 - [MESSAGE][PASSED] - Navigate to 'https://staging.poc.netzon.se/patient/list' successfully
+
+2019-01-09 18:12:43 - [TEST_STEP][PASSED] - click(findTestObject("Page_Professional/img_Activities_ng-tns-c1-0")): Object: 'Object Repository/Page_Professional/img_Activities_ng-tns-c1-0' is clicked on
+
+2019-01-09 18:12:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Professional/img_Activities_ng-tns-c1-0' is clicked on
+
+2019-01-09 18:12:44 - [TEST_STEP][PASSED] - click(findTestObject("Page_Professional/button_Add")): Object: 'Object Repository/Page_Professional/button_Add' is clicked on
+
+2019-01-09 18:12:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Professional/button_Add' is clicked on
+
+2019-01-09 18:12:45 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("TypeError"), 1): Object 'Object Repository/TypeError' is present
+
+2019-01-09 18:12:45 - [MESSAGE][PASSED] - Object 'Object Repository/TypeError' is present
+
+2019-01-09 18:12:45 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-09 18:12:46 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CancelAllDelete" classname="Test Cases/CancelAllDelete" status="PASSED">
+         <system-out><![CDATA[2019-01-09 18:12:46 - [TEST_CASE][PASSED] - Test Cases/CancelAllDelete: Test Cases/CancelAllDelete
+
+2019-01-09 18:12:46 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-09 18:12:46 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-09 18:12:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-09 18:12:49 - [TEST_STEP][PASSED] - navigateToUrl("https://staging.poc.netzon.se/patient/list"): Navigate to 'https://staging.poc.netzon.se/patient/list' successfully
+
+2019-01-09 18:12:54 - [MESSAGE][PASSED] - Navigate to 'https://staging.poc.netzon.se/patient/list' successfully
+
+2019-01-09 18:12:54 - [TEST_STEP][PASSED] - click(findTestObject("Page_Professional/span_Jessica Chastain (1)")): Object: 'Object Repository/Page_Professional/span_Jessica Chastain (1)' is clicked on
+
+2019-01-09 18:12:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Professional/span_Jessica Chastain (1)' is clicked on
+
+2019-01-09 18:12:54 - [TEST_STEP][PASSED] - click(findTestObject("Page_Professional/div_Jessica Chastain (2)")): Object: 'Object Repository/Page_Professional/div_Jessica Chastain (2)' is clicked on
+
+2019-01-09 18:12:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Professional/div_Jessica Chastain (2)' is clicked on
+
+2019-01-09 18:12:54 - [TEST_STEP][PASSED] - click(findTestObject("Page_Professional/img_Activities_ng-tns-c1-0")): Object: 'Object Repository/Page_Professional/img_Activities_ng-tns-c1-0' is clicked on
+
+2019-01-09 18:12:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Professional/img_Activities_ng-tns-c1-0' is clicked on
+
+2019-01-09 18:12:55 - [TEST_STEP][PASSED] - click(findTestObject("Page_Professional/div_Blood Pressure_mat-select-")): Object: 'Object Repository/Page_Professional/div_Blood Pressure_mat-select-' is clicked on
+
+2019-01-09 18:12:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Professional/div_Blood Pressure_mat-select-' is clicked on
+
+2019-01-09 18:12:56 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-09 18:12:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-09 18:12:57 - [TEST_STEP][PASSED] - click(findTestObject("Page_Professional/span_Blood Pressure")): Object: 'Object Repository/Page_Professional/span_Blood Pressure' is clicked on
+
+2019-01-09 18:12:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Professional/span_Blood Pressure' is clicked on
+
+2019-01-09 18:12:57 - [TEST_STEP][PASSED] - click(findTestObject("Page_Professional/button_Add")): Object: 'Object Repository/Page_Professional/button_Add' is clicked on
+
+2019-01-09 18:12:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Professional/button_Add' is clicked on
+
+2019-01-09 18:12:57 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-09 18:13:00 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-09 18:13:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Object Repository/deleteall_Checkbox")): Object: 'Object Repository/Object Repository/deleteall_Checkbox' is clicked on
+
+2019-01-09 18:13:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Object Repository/deleteall_Checkbox' is clicked on
+
+2019-01-09 18:13:01 - [TEST_STEP][PASSED] - click(findTestObject("deleteImage")): Object: 'Object Repository/deleteImage' is clicked on
+
+2019-01-09 18:13:01 - [MESSAGE][PASSED] - Object: 'Object Repository/deleteImage' is clicked on
+
+2019-01-09 18:13:01 - [TEST_STEP][PASSED] - click(findTestObject("CancelDelete")): Object: 'Object Repository/CancelDelete' is clicked on
+
+2019-01-09 18:13:01 - [MESSAGE][PASSED] - Object: 'Object Repository/CancelDelete' is clicked on
+
+2019-01-09 18:13:01 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-01-09 18:13:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-09 18:13:03 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-09 18:13:05 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-09 18:10:26 - [TEST_SUITE][FAILED] - Chrome Test Suite Case: Test Cases/CRUD Data/Add Activity with Date FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Add Activity with Date.run(Add Activity with Date:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547028621259.run(TempTestSuite1547028621259.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-01-09 18:10:26 - [TEST_SUITE][FAILED] - Chrome Test Suite Case: Test Cases/CRUD Data/Add Activity with Date FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Add Activity with Date.run(Add Activity with Date:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547028621259.run(TempTestSuite1547028621259.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

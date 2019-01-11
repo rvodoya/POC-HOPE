@@ -11,12 +11,6 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>57422330-3c01-4d8f-bdfb-93d3c923d38b</testSuiteGuid>
    <testCaseLink>
-      <guid>78d4b052-8747-4bbd-bbca-aed386b08dcf</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CRUD Data/Add Activity with Date</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>682c684f-87a7-490f-9c87-31f497b00a7f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -47,12 +41,6 @@
       <testCaseId>Test Cases/CRUD Data/Firefox Trial Test Case Dropdown</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>44cbe9b8-4f60-4f52-8df4-c815a902ca5f</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Show Graph</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>ef5abaf3-bc74-4a73-b386-2ed856ba6c50</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -63,5 +51,17 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/CancelAllDelete</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7b281780-6a01-46b7-85e0-4f4f112e648a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CRUD Data/Add Activity with Date</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>061f366d-575f-499c-ba7c-a08b9f1ceeca</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Show Graph</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

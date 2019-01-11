@@ -15,27 +15,21 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://staging.poc.netzon.se/patient/list')
+WebUI.navigateToUrl('https://poc.netzon.se/patient/list')
 
-WebUI.click(findTestObject('null'))
+WebUI.click(findTestObject('Object Repository/Page_Professional/div_Jessica Chastain'))
 
-WebUI.click(findTestObject('null'))
+WebUI.click(findTestObject('Object Repository/Page_Professional/div_Brie Larson  brie.larsonma'))
 
-WebUI.delay(1)
+WebUI.click(findTestObject('Object Repository/Page_Professional/div_Jessica Chastain'))
 
-WebUI.click(findTestObject('null'))
+WebUI.click(findTestObject('Object Repository/Page_Professional/div_James Franco  james.franco'))
 
-WebUI.click(findTestObject('null'))
+WebUI.click(findTestObject('Object Repository/Page_Professional/span_Show Graph (1)'))
 
-WebUI.delay(1)
+WebUI.delay(3)
 
-WebUI.click(findTestObject('null'))
-
-WebUI.delay(1)
-
-WebUI.click(findTestObject('null'))
-
-WebUI.delay(2)
+WebUI.click(findTestObject('Object Repository/Page_Professional/span_Hide Graph'))
 
 WebUI.closeBrowser()
 

@@ -1,0 +1,139 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Chrome Test Suite Case,Chrome 71.0.3578.98,,2019-01-11 09:55:11,2019-01-11 09:57:50,2m - 39.266s,PASSED
+,,,,,,
+Test Cases/CRUD Data/Add Activity with Time and Date,Chrome 71.0.3578.98,,2019-01-11 09:55:12,2019-01-11 09:55:38,26.970s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-11 09:55:12,2019-01-11 09:55:18,6.240s,PASSED
+"navigateToUrl(""https://staging.poc.netzon.se/patient/list"")",Chrome 71.0.3578.98,,2019-01-11 09:55:18,2019-01-11 09:55:25,6.502s,PASSED
+"click(findTestObject(""Page_Professional/div_Jessica Chastain""))",Chrome 71.0.3578.98,,2019-01-11 09:55:25,2019-01-11 09:55:25,0.335s,PASSED
+"click(findTestObject(""Page_Professional/img_Activities_ng-tns-c1-0 (3) (1) (1)""))",Chrome 71.0.3578.98,,2019-01-11 09:55:25,2019-01-11 09:55:26,1.082s,PASSED
+"click(findTestObject(""Page_Professional/div_Type_mat-select-arrow (2) (1) (1)""))",Chrome 71.0.3578.98,,2019-01-11 09:55:26,2019-01-11 09:55:27,0.987s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-11 09:55:27,2019-01-11 09:55:28,1.076s,PASSED
+"click(findTestObject(""Page_Professional/span_Blood Pressure (3) (1)""))",Chrome 71.0.3578.98,,2019-01-11 09:55:28,2019-01-11 09:55:29,0.256s,PASSED
+"click(findTestObject(""Page_Professional/button_Date_mat-icon-button cd (1)""))",Chrome 71.0.3578.98,,2019-01-11 09:55:29,2019-01-11 09:55:29,0.415s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-11 09:55:29,2019-01-11 09:55:30,1.012s,PASSED
+"click(findTestObject(""Page_Professional/div_14 (1) (1)""))",Chrome 71.0.3578.98,,2019-01-11 09:55:30,2019-01-11 09:55:30,0.206s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-11 09:55:30,2019-01-11 09:55:31,1.007s,PASSED
+"click(findTestObject(""Page_Professional/mat-icon_access_time (1)""))",Chrome 71.0.3578.98,,2019-01-11 09:55:31,2019-01-11 09:55:32,0.404s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-11 09:55:32,2019-01-11 09:55:33,1.021s,PASSED
+"click(findTestObject(""Page_Professional/span_14 (1)""))",Chrome 71.0.3578.98,,2019-01-11 09:55:33,2019-01-11 09:55:33,0.263s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-11 09:55:33,2019-01-11 09:55:34,1.044s,PASSED
+"click(findTestObject(""Page_Professional/span_Ok (1)""))",Chrome 71.0.3578.98,,2019-01-11 09:55:34,2019-01-11 09:55:34,0.239s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-11 09:55:34,2019-01-11 09:55:35,1.003s,PASSED
+"click(findTestObject(""AddButton""))",Chrome 71.0.3578.98,,2019-01-11 09:55:35,2019-01-11 09:55:36,0.196s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-11 09:55:36,2019-01-11 09:55:38,2.005s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-11 09:55:38,2019-01-11 09:55:38,0.949s,PASSED
+,,,,,,
+Test Cases/CRUD Data/Chrome Add Activity,Chrome 71.0.3578.98,,2019-01-11 09:55:39,2019-01-11 09:55:52,13.880s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-11 09:55:39,2019-01-11 09:55:41,2.426s,PASSED
+"navigateToUrl(""https://staging.poc.netzon.se/patient/list"")",Chrome 71.0.3578.98,,2019-01-11 09:55:41,2019-01-11 09:55:46,4.568s,PASSED
+"click(findTestObject(""Page_Professional/div_Jessica Chastain (2)""))",Chrome 71.0.3578.98,,2019-01-11 09:55:46,2019-01-11 09:55:46,0.188s,PASSED
+"click(findTestObject(""PlusSymbol""))",Chrome 71.0.3578.98,,2019-01-11 09:55:46,2019-01-11 09:55:47,0.891s,PASSED
+"doubleClick(findTestObject(""Page_Professional/div_Blood Pressure_mat-select-""))",Chrome 71.0.3578.98,,2019-01-11 09:55:47,2019-01-11 09:55:48,1.065s,PASSED
+"click(findTestObject(""Page_Professional/span_Blood Pressure""))",Chrome 71.0.3578.98,,2019-01-11 09:55:48,2019-01-11 09:55:48,0.228s,PASSED
+"click(findTestObject(""Page_Professional/button_Add""))",Chrome 71.0.3578.98,,2019-01-11 09:55:48,2019-01-11 09:55:49,0.197s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-11 09:55:49,2019-01-11 09:55:52,3.006s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-11 09:55:52,2019-01-11 09:55:52,0.826s,PASSED
+,,,,,,
+Test Cases/CRUD Data/Chrome Delete Activity,Chrome 71.0.3578.98,,2019-01-11 09:55:52,2019-01-11 09:56:10,18.017s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-11 09:55:53,2019-01-11 09:55:55,2.452s,PASSED
+"navigateToUrl(""https://staging.poc.netzon.se/patient/list"")",Chrome 71.0.3578.98,,2019-01-11 09:55:55,2019-01-11 09:56:00,4.254s,PASSED
+"click(findTestObject(""Page_Professional/div_Michael Bay""))",Chrome 71.0.3578.98,,2019-01-11 09:56:00,2019-01-11 09:56:00,0.197s,PASSED
+"click(findTestObject(""Page_Professional/div_Brie Larson (1)""))",Chrome 71.0.3578.98,,2019-01-11 09:56:00,2019-01-11 09:56:00,0.260s,PASSED
+"click(findTestObject(""Page_Professional/span_brie.larsonmailinator.com""))",Chrome 71.0.3578.98,,2019-01-11 09:56:00,2019-01-11 09:56:00,0.189s,PASSED
+"click(findTestObject(""Page_Professional/div_Jessica Chastain (3)""))",Chrome 71.0.3578.98,,2019-01-11 09:56:00,2019-01-11 09:56:00,0.146s,PASSED
+"click(findTestObject(""Page_Professional/div_Jessica Chastain (2)""))",Chrome 71.0.3578.98,,2019-01-11 09:56:00,2019-01-11 09:56:01,0.548s,PASSED
+"click(findTestObject(""Page_Professional/img_Activities_ng-tns-c1-0""))",Chrome 71.0.3578.98,,2019-01-11 09:56:01,2019-01-11 09:56:01,0.449s,PASSED
+"doubleClick(findTestObject(""Page_Professional/div_Blood Pressure_mat-select-""))",Chrome 71.0.3578.98,,2019-01-11 09:56:01,2019-01-11 09:56:02,0.895s,PASSED
+"click(findTestObject(""Page_Professional/span_Blood Pressure""))",Chrome 71.0.3578.98,,2019-01-11 09:56:02,2019-01-11 09:56:03,0.267s,PASSED
+"click(findTestObject(""Page_Professional/button_Add""))",Chrome 71.0.3578.98,,2019-01-11 09:56:03,2019-01-11 09:56:03,0.211s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-11 09:56:03,2019-01-11 09:56:06,3.003s,PASSED
+"click(findTestObject(""Object Repository/2ndcheckbox""))",Chrome 71.0.3578.98,,2019-01-11 09:56:06,2019-01-11 09:56:06,0.201s,PASSED
+"click(findTestObject(""Page_Professional/img_Activities_ng-tns-c1-0 (5)""))",Chrome 71.0.3578.98,,2019-01-11 09:56:06,2019-01-11 09:56:06,0.350s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-11 09:56:06,2019-01-11 09:56:07,1.003s,PASSED
+"click(findTestObject(""RemoveButton""))",Chrome 71.0.3578.98,,2019-01-11 09:56:07,2019-01-11 09:56:08,0.167s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-11 09:56:08,2019-01-11 09:56:10,2.007s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-11 09:56:10,2019-01-11 09:56:10,0.877s,PASSED
+,,,,,,
+Test Cases/CRUD Data/Chrome Trial Test Case,Chrome 71.0.3578.98,,2019-01-11 09:56:10,2019-01-11 09:56:32,21.960s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-01-11 09:56:11,2019-01-11 09:56:16,5.018s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-11 09:56:16,2019-01-11 09:56:18,2.412s,PASSED
+driver = getWebDriver(),Chrome 71.0.3578.98,,2019-01-11 09:56:18,2019-01-11 09:56:18,0.027s,PASSED
+"navigateToUrl(""https://staging.poc.netzon.se/patient/list"")",Chrome 71.0.3578.98,,2019-01-11 09:56:18,2019-01-11 09:56:23,4.967s,PASSED
+"click(findTestObject(""Page_Professional/img_Activities_ng-tns-c1-0""))",Chrome 71.0.3578.98,,2019-01-11 09:56:23,2019-01-11 09:56:24,0.385s,PASSED
+"doubleClick(findTestObject(""Page_Professional/div_Blood Pressure_mat-select-""))",Chrome 71.0.3578.98,,2019-01-11 09:56:24,2019-01-11 09:56:25,0.820s,PASSED
+"click(findTestObject(""Page_Professional/span_Blood Pressure""))",Chrome 71.0.3578.98,,2019-01-11 09:56:25,2019-01-11 09:56:25,0.256s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-11 09:56:25,2019-01-11 09:56:27,2.004s,PASSED
+"xpath(""//*[@id=""mat-dialog-0""]/app-activity-add/div/div[2]/div[2]/mat-form-field/div/div[1]/div[2]/mat-datepicker-toggle/button"")).click()",Chrome 71.0.3578.98,,2019-01-11 09:56:27,2019-01-11 09:56:27,0.544s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-11 09:56:27,2019-01-11 09:56:29,2.007s,PASSED
+"xpath(""//div[text()='9']"")).click()",Chrome 71.0.3578.98,,2019-01-11 09:56:29,2019-01-11 09:56:30,0.200s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-11 09:56:30,2019-01-11 09:56:32,2.002s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-11 09:56:32,2019-01-11 09:56:32,0.797s,PASSED
+,,,,,,
+Test Cases/CRUD Data/Delete all Activity,Chrome 71.0.3578.98,,2019-01-11 09:56:32,2019-01-11 09:56:50,17.657s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-11 09:56:33,2019-01-11 09:56:35,2.697s,PASSED
+"navigateToUrl(""https://staging.poc.netzon.se/patient/list"")",Chrome 71.0.3578.98,,2019-01-11 09:56:35,2019-01-11 09:56:40,4.430s,PASSED
+"click(findTestObject(""Page_Professional/span_Jessica Chastain (1)""))",Chrome 71.0.3578.98,,2019-01-11 09:56:40,2019-01-11 09:56:40,0.230s,PASSED
+"click(findTestObject(""Page_Professional/div_Jessica Chastain (2)""))",Chrome 71.0.3578.98,,2019-01-11 09:56:40,2019-01-11 09:56:41,0.665s,PASSED
+"click(findTestObject(""Page_Professional/img_Activities_ng-tns-c1-0""))",Chrome 71.0.3578.98,,2019-01-11 09:56:41,2019-01-11 09:56:41,0.666s,PASSED
+"click(findTestObject(""Page_Professional/div_Blood Pressure_mat-select-""))",Chrome 71.0.3578.98,,2019-01-11 09:56:41,2019-01-11 09:56:42,0.494s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-11 09:56:42,2019-01-11 09:56:43,1.003s,PASSED
+"click(findTestObject(""Page_Professional/span_Blood Pressure""))",Chrome 71.0.3578.98,,2019-01-11 09:56:43,2019-01-11 09:56:43,0.193s,PASSED
+"click(findTestObject(""Page_Professional/button_Add""))",Chrome 71.0.3578.98,,2019-01-11 09:56:43,2019-01-11 09:56:43,0.204s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-11 09:56:43,2019-01-11 09:56:46,3.005s,PASSED
+"click(findTestObject(""Object Repository/Object Repository/deleteall_Checkbox""))",Chrome 71.0.3578.98,,2019-01-11 09:56:46,2019-01-11 09:56:47,0.262s,PASSED
+"click(findTestObject(""deleteImage""))",Chrome 71.0.3578.98,,2019-01-11 09:56:47,2019-01-11 09:56:47,0.265s,PASSED
+"click(findTestObject(""CancelDelete""))",Chrome 71.0.3578.98,,2019-01-11 09:56:47,2019-01-11 09:56:47,0.294s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-11 09:56:47,2019-01-11 09:56:49,2.003s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-11 09:56:49,2019-01-11 09:56:50,0.860s,PASSED
+,,,,,,
+Test Cases/CRUD Data/BlankAddName,Chrome 71.0.3578.98,,2019-01-11 09:56:50,2019-01-11 09:57:03,13.374s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-11 09:56:50,2019-01-11 09:56:53,2.459s,PASSED
+"navigateToUrl(""https://staging.poc.netzon.se/patient/list"")",Chrome 71.0.3578.98,,2019-01-11 09:56:53,2019-01-11 09:57:01,8.504s,PASSED
+"click(findTestObject(""Page_Professional/img_Activities_ng-tns-c1-0""))",Chrome 71.0.3578.98,,2019-01-11 09:57:01,2019-01-11 09:57:02,0.386s,PASSED
+"click(findTestObject(""Page_Professional/button_Add""))",Chrome 71.0.3578.98,,2019-01-11 09:57:02,2019-01-11 09:57:02,0.753s,PASSED
+"verifyElementPresent(findTestObject(""TypeError""), 1)",Chrome 71.0.3578.98,,2019-01-11 09:57:02,2019-01-11 09:57:03,0.089s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-11 09:57:03,2019-01-11 09:57:03,0.831s,PASSED
+,,,,,,
+Test Cases/CancelAllDelete,Chrome 71.0.3578.98,,2019-01-11 09:57:03,2019-01-11 09:57:21,18.000s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-11 09:57:04,2019-01-11 09:57:06,2.499s,PASSED
+"navigateToUrl(""https://staging.poc.netzon.se/patient/list"")",Chrome 71.0.3578.98,,2019-01-11 09:57:06,2019-01-11 09:57:11,4.791s,PASSED
+"click(findTestObject(""Page_Professional/span_Jessica Chastain (1)""))",Chrome 71.0.3578.98,,2019-01-11 09:57:11,2019-01-11 09:57:11,0.171s,PASSED
+"click(findTestObject(""Page_Professional/div_Jessica Chastain (2)""))",Chrome 71.0.3578.98,,2019-01-11 09:57:11,2019-01-11 09:57:12,0.660s,PASSED
+"click(findTestObject(""Page_Professional/img_Activities_ng-tns-c1-0""))",Chrome 71.0.3578.98,,2019-01-11 09:57:12,2019-01-11 09:57:12,0.437s,PASSED
+"click(findTestObject(""Page_Professional/div_Blood Pressure_mat-select-""))",Chrome 71.0.3578.98,,2019-01-11 09:57:12,2019-01-11 09:57:13,0.972s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-11 09:57:13,2019-01-11 09:57:14,1.002s,PASSED
+"click(findTestObject(""Page_Professional/span_Blood Pressure""))",Chrome 71.0.3578.98,,2019-01-11 09:57:14,2019-01-11 09:57:15,0.188s,PASSED
+"click(findTestObject(""Page_Professional/button_Add""))",Chrome 71.0.3578.98,,2019-01-11 09:57:15,2019-01-11 09:57:15,0.213s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-11 09:57:15,2019-01-11 09:57:18,3.001s,PASSED
+"click(findTestObject(""Object Repository/Object Repository/deleteall_Checkbox""))",Chrome 71.0.3578.98,,2019-01-11 09:57:18,2019-01-11 09:57:18,0.246s,PASSED
+"click(findTestObject(""deleteImage""))",Chrome 71.0.3578.98,,2019-01-11 09:57:18,2019-01-11 09:57:18,0.311s,PASSED
+"click(findTestObject(""CancelDelete""))",Chrome 71.0.3578.98,,2019-01-11 09:57:18,2019-01-11 09:57:19,0.280s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-11 09:57:19,2019-01-11 09:57:21,2.003s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-11 09:57:21,2019-01-11 09:57:21,0.802s,PASSED
+,,,,,,
+Test Cases/CRUD Data/Add Activity with Date,Chrome 71.0.3578.98,,2019-01-11 09:57:21,2019-01-11 09:57:37,15.198s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-11 09:57:22,2019-01-11 09:57:24,2.435s,PASSED
+"navigateToUrl(""https://staging.poc.netzon.se/patient/list"")",Chrome 71.0.3578.98,,2019-01-11 09:57:24,2019-01-11 09:57:29,4.446s,PASSED
+"click(findTestObject(""Object Repository/Page_Professional/img_Activities_ng-tns-c1-0 (3) (1)""))",Chrome 71.0.3578.98,,2019-01-11 09:57:29,2019-01-11 09:57:29,0.388s,PASSED
+"click(findTestObject(""Object Repository/Page_Professional/div_Type_mat-select-arrow (2) (1)""))",Chrome 71.0.3578.98,,2019-01-11 09:57:29,2019-01-11 09:57:30,0.822s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-11 09:57:30,2019-01-11 09:57:31,1.002s,PASSED
+"click(findTestObject(""Object Repository/Page_Professional/span_Blood Pressure (3)""))",Chrome 71.0.3578.98,,2019-01-11 09:57:31,2019-01-11 09:57:31,0.173s,PASSED
+"click(findTestObject(""Object Repository/Page_Professional/button_Date_mat-icon-button cd""))",Chrome 71.0.3578.98,,2019-01-11 09:57:31,2019-01-11 09:57:31,0.369s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-11 09:57:31,2019-01-11 09:57:32,1.003s,PASSED
+"click(findTestObject(""Object Repository/Page_Professional/div_14 (1)""))",Chrome 71.0.3578.98,,2019-01-11 09:57:32,2019-01-11 09:57:33,0.242s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-11 09:57:33,2019-01-11 09:57:34,1.003s,PASSED
+"click(findTestObject(""Object Repository/Page_Professional/button_Add (3)""))",Chrome 71.0.3578.98,,2019-01-11 09:57:34,2019-01-11 09:57:34,0.186s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-11 09:57:34,2019-01-11 09:57:36,2.002s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-11 09:57:36,2019-01-11 09:57:37,0.784s,PASSED
+,,,,,,
+Test Cases/Show Graph,Chrome 71.0.3578.98,,2019-01-11 09:57:37,2019-01-11 09:57:50,13.324s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-11 09:57:37,2019-01-11 09:57:40,2.464s,PASSED
+"navigateToUrl(""https://poc.netzon.se/patient/list"")",Chrome 71.0.3578.98,,2019-01-11 09:57:40,2019-01-11 09:57:45,5.016s,PASSED
+"click(findTestObject(""Object Repository/Page_Professional/div_Jessica Chastain""))",Chrome 71.0.3578.98,,2019-01-11 09:57:45,2019-01-11 09:57:45,0.139s,PASSED
+"click(findTestObject(""Object Repository/Page_Professional/div_Brie Larson  brie.larsonma""))",Chrome 71.0.3578.98,,2019-01-11 09:57:45,2019-01-11 09:57:45,0.229s,PASSED
+"click(findTestObject(""Object Repository/Page_Professional/div_Jessica Chastain""))",Chrome 71.0.3578.98,,2019-01-11 09:57:45,2019-01-11 09:57:45,0.138s,PASSED
+"click(findTestObject(""Object Repository/Page_Professional/div_James Franco  james.franco""))",Chrome 71.0.3578.98,,2019-01-11 09:57:45,2019-01-11 09:57:45,0.144s,PASSED
+"click(findTestObject(""Object Repository/Page_Professional/span_Show Graph (1)""))",Chrome 71.0.3578.98,,2019-01-11 09:57:45,2019-01-11 09:57:46,0.644s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-11 09:57:46,2019-01-11 09:57:49,3.003s,PASSED
+"click(findTestObject(""Object Repository/Page_Professional/span_Hide Graph""))",Chrome 71.0.3578.98,,2019-01-11 09:57:49,2019-01-11 09:57:49,0.325s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-11 09:57:49,2019-01-11 09:57:50,0.846s,PASSED

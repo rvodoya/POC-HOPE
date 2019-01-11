@@ -11,12 +11,6 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>df9e3446-907a-49ed-aab3-fe4b0014f2d2</testSuiteGuid>
    <testCaseLink>
-      <guid>a9b727e3-b2c8-4522-8a04-57a0c5e085a7</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CRUD Data/Add Activity with Date</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>58e1fbc0-5b37-428d-9a1b-9109e3a6ce9b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -47,12 +41,6 @@
       <testCaseId>Test Cases/CRUD Data/Delete all Activity</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>90315fd5-7ed0-4551-9da5-9ef48c72f310</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Show Graph</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>cf823016-d4c7-4ce9-81ff-05bfc172dc37</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -63,5 +51,17 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/CancelAllDelete</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b7d0b966-684c-4def-823f-3ef498ec355f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CRUD Data/Add Activity with Date</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2ecaef15-3337-4b12-8324-2e28a7ee334f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Show Graph</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

@@ -1,0 +1,140 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Firefox Test Suite Case,Firefox 60.0,,2019-01-10 12:11:49,2019-01-10 12:15:53,4m - 3.300s,PASSED
+,,,,,,
+Test Cases/CRUD Data/Add Activity with Time and Date,Firefox 60.0,,2019-01-10 12:11:50,2019-01-10 12:12:30,39.823s,PASSED
+"openBrowser("""")",Firefox 60.0,,2019-01-10 12:11:51,2019-01-10 12:12:02,11.781s,PASSED
+"navigateToUrl(""https://staging.poc.netzon.se/patient/list"")",Firefox 60.0,,2019-01-10 12:12:02,2019-01-10 12:12:13,10.465s,PASSED
+"click(findTestObject(""Page_Professional/div_Jessica Chastain""))",Firefox 60.0,,2019-01-10 12:12:13,2019-01-10 12:12:14,1.084s,PASSED
+"click(findTestObject(""Page_Professional/img_Activities_ng-tns-c1-0 (3) (1) (1)""))",Firefox 60.0,,2019-01-10 12:12:14,2019-01-10 12:12:15,1.220s,PASSED
+"click(findTestObject(""Page_Professional/div_Type_mat-select-arrow (2) (1) (1)""))",Firefox 60.0,,2019-01-10 12:12:15,2019-01-10 12:12:16,0.551s,PASSED
+delay(1),Firefox 60.0,,2019-01-10 12:12:16,2019-01-10 12:12:17,1.087s,PASSED
+"click(findTestObject(""Page_Professional/span_Blood Pressure (3) (1)""))",Firefox 60.0,,2019-01-10 12:12:17,2019-01-10 12:12:17,0.392s,PASSED
+"click(findTestObject(""Page_Professional/button_Date_mat-icon-button cd (1)""))",Firefox 60.0,,2019-01-10 12:12:17,2019-01-10 12:12:18,0.807s,PASSED
+delay(1),Firefox 60.0,,2019-01-10 12:12:18,2019-01-10 12:12:19,1.004s,PASSED
+"click(findTestObject(""Page_Professional/div_14 (1) (1)""))",Firefox 60.0,,2019-01-10 12:12:19,2019-01-10 12:12:19,0.484s,PASSED
+delay(1),Firefox 60.0,,2019-01-10 12:12:19,2019-01-10 12:12:20,1.006s,PASSED
+"click(findTestObject(""Page_Professional/mat-icon_access_time (1)""))",Firefox 60.0,,2019-01-10 12:12:20,2019-01-10 12:12:21,0.757s,PASSED
+delay(1),Firefox 60.0,,2019-01-10 12:12:21,2019-01-10 12:12:22,1.005s,PASSED
+"click(findTestObject(""Page_Professional/span_14 (1)""))",Firefox 60.0,,2019-01-10 12:12:22,2019-01-10 12:12:23,0.644s,PASSED
+delay(1),Firefox 60.0,,2019-01-10 12:12:23,2019-01-10 12:12:24,1.007s,PASSED
+"click(findTestObject(""Page_Professional/span_Ok (1)""))",Firefox 60.0,,2019-01-10 12:12:24,2019-01-10 12:12:24,0.346s,PASSED
+delay(1),Firefox 60.0,,2019-01-10 12:12:24,2019-01-10 12:12:25,1.004s,PASSED
+"click(findTestObject(""AddButton""))",Firefox 60.0,,2019-01-10 12:12:25,2019-01-10 12:12:26,0.311s,PASSED
+delay(2),Firefox 60.0,,2019-01-10 12:12:26,2019-01-10 12:12:28,2.004s,PASSED
+closeBrowser(),Firefox 60.0,,2019-01-10 12:12:28,2019-01-10 12:12:30,2.064s,PASSED
+,,,,,,
+Test Cases/CRUD Data/Delete all Activity,Firefox 60.0,,2019-01-10 12:12:30,2019-01-10 12:13:00,30.019s,PASSED
+"openBrowser("""")",Firefox 60.0,,2019-01-10 12:12:30,2019-01-10 12:12:38,7.252s,PASSED
+"navigateToUrl(""https://staging.poc.netzon.se/patient/list"")",Firefox 60.0,,2019-01-10 12:12:38,2019-01-10 12:12:47,9.406s,PASSED
+"click(findTestObject(""Page_Professional/span_Jessica Chastain (1)""))",Firefox 60.0,,2019-01-10 12:12:47,2019-01-10 12:12:48,0.590s,PASSED
+"click(findTestObject(""Page_Professional/div_Jessica Chastain (2)""))",Firefox 60.0,,2019-01-10 12:12:48,2019-01-10 12:12:49,0.948s,PASSED
+"click(findTestObject(""Page_Professional/img_Activities_ng-tns-c1-0""))",Firefox 60.0,,2019-01-10 12:12:49,2019-01-10 12:12:50,1.038s,PASSED
+"click(findTestObject(""Page_Professional/div_Blood Pressure_mat-select-""))",Firefox 60.0,,2019-01-10 12:12:50,2019-01-10 12:12:50,0.628s,PASSED
+delay(1),Firefox 60.0,,2019-01-10 12:12:50,2019-01-10 12:12:51,1.002s,PASSED
+"click(findTestObject(""Page_Professional/span_Blood Pressure""))",Firefox 60.0,,2019-01-10 12:12:51,2019-01-10 12:12:52,0.376s,PASSED
+"click(findTestObject(""Page_Professional/button_Add""))",Firefox 60.0,,2019-01-10 12:12:52,2019-01-10 12:12:52,0.800s,PASSED
+delay(3),Firefox 60.0,,2019-01-10 12:12:52,2019-01-10 12:12:55,3.003s,PASSED
+"click(findTestObject(""Object Repository/Object Repository/deleteall_Checkbox""))",Firefox 60.0,,2019-01-10 12:12:55,2019-01-10 12:12:56,0.347s,PASSED
+"click(findTestObject(""deleteImage""))",Firefox 60.0,,2019-01-10 12:12:56,2019-01-10 12:12:56,0.389s,PASSED
+"click(findTestObject(""CancelDelete""))",Firefox 60.0,,2019-01-10 12:12:56,2019-01-10 12:12:56,0.358s,PASSED
+delay(2),Firefox 60.0,,2019-01-10 12:12:56,2019-01-10 12:12:58,2.002s,PASSED
+closeBrowser(),Firefox 60.0,,2019-01-10 12:12:58,2019-01-10 12:13:00,1.218s,PASSED
+,,,,,,
+Test Cases/CRUD Data/Firefox Add Activity,Firefox 60.0,,2019-01-10 12:13:00,2019-01-10 12:13:21,21.552s,PASSED
+"openBrowser("""")",Firefox 60.0,,2019-01-10 12:13:00,2019-01-10 12:13:06,5.844s,PASSED
+"navigateToUrl(""https://staging.poc.netzon.se/patient/list"")",Firefox 60.0,,2019-01-10 12:13:06,2019-01-10 12:13:13,7.312s,PASSED
+"click(findTestObject(""Page_Professional/div_Jessica Chastain (2)""))",Firefox 60.0,,2019-01-10 12:13:13,2019-01-10 12:13:14,0.858s,PASSED
+"click(findTestObject(""PlusSymbol""))",Firefox 60.0,,2019-01-10 12:13:14,2019-01-10 12:13:15,1.080s,PASSED
+"click(findTestObject(""Page_Professional/div_Blood Pressure_mat-select-""))",Firefox 60.0,,2019-01-10 12:13:15,2019-01-10 12:13:16,0.572s,PASSED
+"click(findTestObject(""Page_Professional/span_Blood Pressure""))",Firefox 60.0,,2019-01-10 12:13:16,2019-01-10 12:13:16,0.436s,PASSED
+"click(findTestObject(""Page_Professional/button_Add""))",Firefox 60.0,,2019-01-10 12:13:16,2019-01-10 12:13:17,0.685s,PASSED
+delay(3),Firefox 60.0,,2019-01-10 12:13:17,2019-01-10 12:13:20,3.003s,PASSED
+closeBrowser(),Firefox 60.0,,2019-01-10 12:13:20,2019-01-10 12:13:21,1.414s,PASSED
+,,,,,,
+Test Cases/CRUD Data/Firefox Delete Activity,Firefox 60.0,,2019-01-10 12:13:21,2019-01-10 12:13:49,28.243s,PASSED
+"openBrowser("""")",Firefox 60.0,,2019-01-10 12:13:22,2019-01-10 12:13:27,5.358s,PASSED
+"navigateToUrl(""https://staging.poc.netzon.se/patient/list"")",Firefox 60.0,,2019-01-10 12:13:27,2019-01-10 12:13:36,9.064s,PASSED
+"click(findTestObject(""Page_Professional/div_Michael Bay""))",Firefox 60.0,,2019-01-10 12:13:36,2019-01-10 12:13:36,0.366s,PASSED
+"click(findTestObject(""Page_Professional/div_Brie Larson (1)""))",Firefox 60.0,,2019-01-10 12:13:36,2019-01-10 12:13:37,0.367s,PASSED
+"click(findTestObject(""Page_Professional/span_brie.larsonmailinator.com""))",Firefox 60.0,,2019-01-10 12:13:37,2019-01-10 12:13:37,0.278s,PASSED
+"click(findTestObject(""Page_Professional/div_Jessica Chastain (3)""))",Firefox 60.0,,2019-01-10 12:13:37,2019-01-10 12:13:38,0.743s,PASSED
+"click(findTestObject(""Page_Professional/div_Jessica Chastain (2)""))",Firefox 60.0,,2019-01-10 12:13:38,2019-01-10 12:13:38,0.408s,PASSED
+"click(findTestObject(""Page_Professional/img_Activities_ng-tns-c1-0""))",Firefox 60.0,,2019-01-10 12:13:38,2019-01-10 12:13:39,0.777s,PASSED
+"click(findTestObject(""Page_Professional/div_Blood Pressure_mat-select-""))",Firefox 60.0,,2019-01-10 12:13:39,2019-01-10 12:13:40,0.523s,PASSED
+"click(findTestObject(""Page_Professional/span_Blood Pressure""))",Firefox 60.0,,2019-01-10 12:13:40,2019-01-10 12:13:40,0.573s,PASSED
+"click(findTestObject(""Page_Professional/button_Add""))",Firefox 60.0,,2019-01-10 12:13:40,2019-01-10 12:13:41,0.932s,PASSED
+delay(3),Firefox 60.0,,2019-01-10 12:13:41,2019-01-10 12:13:44,3.003s,PASSED
+"click(findTestObject(""Object Repository/2ndcheckbox""))",Firefox 60.0,,2019-01-10 12:13:44,2019-01-10 12:13:44,0.368s,PASSED
+"click(findTestObject(""Page_Professional/img_Activities_ng-tns-c1-0 (5)""))",Firefox 60.0,,2019-01-10 12:13:44,2019-01-10 12:13:45,0.396s,PASSED
+delay(1),Firefox 60.0,,2019-01-10 12:13:45,2019-01-10 12:13:46,1.002s,PASSED
+"click(findTestObject(""RemoveButton""))",Firefox 60.0,,2019-01-10 12:13:46,2019-01-10 12:13:46,0.282s,PASSED
+delay(2),Firefox 60.0,,2019-01-10 12:13:46,2019-01-10 12:13:48,2.004s,PASSED
+closeBrowser(),Firefox 60.0,,2019-01-10 12:13:48,2019-01-10 12:13:49,1.364s,PASSED
+,,,,,,
+Test Cases/CRUD Data/Firefox Trial Test Case Dropdown,Firefox 60.0,,2019-01-10 12:13:49,2019-01-10 12:14:22,32.810s,PASSED
+delay(5),Firefox 60.0,,2019-01-10 12:13:50,2019-01-10 12:13:55,5.006s,PASSED
+"openBrowser("""")",Firefox 60.0,,2019-01-10 12:13:55,2019-01-10 12:14:00,5.331s,PASSED
+driver = getWebDriver(),Firefox 60.0,,2019-01-10 12:14:00,2019-01-10 12:14:00,0.019s,PASSED
+"navigateToUrl(""https://staging.poc.netzon.se/patient/list"")",Firefox 60.0,,2019-01-10 12:14:00,2019-01-10 12:14:10,9.290s,PASSED
+"click(findTestObject(""Page_Professional/img_Activities_ng-tns-c1-0""))",Firefox 60.0,,2019-01-10 12:14:10,2019-01-10 12:14:11,0.989s,PASSED
+"xpath(""//*[@id=""mat-select-0""]/div/div[2]/div"")).click()",Firefox 60.0,,2019-01-10 12:14:11,2019-01-10 12:14:11,0.640s,PASSED
+delay(2),Firefox 60.0,,2019-01-10 12:14:11,2019-01-10 12:14:13,2.003s,PASSED
+"xpath(""//*[@id=""mat-option-0""]/span"")).click()",Firefox 60.0,,2019-01-10 12:14:13,2019-01-10 12:14:14,0.416s,PASSED
+delay(2),Firefox 60.0,,2019-01-10 12:14:14,2019-01-10 12:14:16,2.002s,PASSED
+"xpath(""//*[@id=""mat-dialog-0""]/app-activity-add/div/div[2]/div[2]/mat-form-field/div/div[1]/div[2]/mat-datepicker-toggle/button"")).click()",Firefox 60.0,,2019-01-10 12:14:16,2019-01-10 12:14:16,0.602s,PASSED
+delay(2),Firefox 60.0,,2019-01-10 12:14:16,2019-01-10 12:14:18,2.002s,PASSED
+"xpath(""//div[text()='9']"")).click()",Firefox 60.0,,2019-01-10 12:14:18,2019-01-10 12:14:19,0.423s,PASSED
+delay(2),Firefox 60.0,,2019-01-10 12:14:19,2019-01-10 12:14:21,2.003s,PASSED
+closeBrowser(),Firefox 60.0,,2019-01-10 12:14:21,2019-01-10 12:14:22,1.483s,PASSED
+,,,,,,
+Test Cases/CRUD Data/BlankAddName,Firefox 60.0,,2019-01-10 12:14:22,2019-01-10 12:14:39,16.980s,PASSED
+"openBrowser("""")",Firefox 60.0,,2019-01-10 12:14:23,2019-01-10 12:14:28,5.492s,PASSED
+"navigateToUrl(""https://staging.poc.netzon.se/patient/list"")",Firefox 60.0,,2019-01-10 12:14:28,2019-01-10 12:14:37,8.386s,PASSED
+"click(findTestObject(""Page_Professional/img_Activities_ng-tns-c1-0""))",Firefox 60.0,,2019-01-10 12:14:37,2019-01-10 12:14:37,0.825s,PASSED
+"click(findTestObject(""Page_Professional/button_Add""))",Firefox 60.0,,2019-01-10 12:14:37,2019-01-10 12:14:38,0.328s,PASSED
+"verifyElementPresent(findTestObject(""TypeError""), 1)",Firefox 60.0,,2019-01-10 12:14:38,2019-01-10 12:14:38,0.118s,PASSED
+closeBrowser(),Firefox 60.0,,2019-01-10 12:14:38,2019-01-10 12:14:39,1.393s,PASSED
+,,,,,,
+Test Cases/CancelAllDelete,Firefox 60.0,,2019-01-10 12:14:39,2019-01-10 12:15:04,24.676s,PASSED
+"openBrowser("""")",Firefox 60.0,,2019-01-10 12:14:40,2019-01-10 12:14:45,4.763s,PASSED
+"navigateToUrl(""https://staging.poc.netzon.se/patient/list"")",Firefox 60.0,,2019-01-10 12:14:45,2019-01-10 12:14:52,7.529s,PASSED
+"click(findTestObject(""Page_Professional/span_Jessica Chastain (1)""))",Firefox 60.0,,2019-01-10 12:14:52,2019-01-10 12:14:53,0.680s,PASSED
+"click(findTestObject(""Page_Professional/div_Jessica Chastain (2)""))",Firefox 60.0,,2019-01-10 12:14:53,2019-01-10 12:14:53,0.360s,PASSED
+"click(findTestObject(""Page_Professional/img_Activities_ng-tns-c1-0""))",Firefox 60.0,,2019-01-10 12:14:53,2019-01-10 12:14:54,0.710s,PASSED
+"click(findTestObject(""Page_Professional/div_Blood Pressure_mat-select-""))",Firefox 60.0,,2019-01-10 12:14:54,2019-01-10 12:14:54,0.431s,PASSED
+delay(1),Firefox 60.0,,2019-01-10 12:14:54,2019-01-10 12:14:55,1.003s,PASSED
+"click(findTestObject(""Page_Professional/span_Blood Pressure""))",Firefox 60.0,,2019-01-10 12:14:55,2019-01-10 12:14:56,0.354s,PASSED
+"click(findTestObject(""Page_Professional/button_Add""))",Firefox 60.0,,2019-01-10 12:14:56,2019-01-10 12:14:57,0.947s,PASSED
+delay(3),Firefox 60.0,,2019-01-10 12:14:57,2019-01-10 12:15:00,3.002s,PASSED
+"click(findTestObject(""Object Repository/Object Repository/deleteall_Checkbox""))",Firefox 60.0,,2019-01-10 12:15:00,2019-01-10 12:15:00,0.367s,PASSED
+"click(findTestObject(""deleteImage""))",Firefox 60.0,,2019-01-10 12:15:00,2019-01-10 12:15:00,0.349s,PASSED
+"click(findTestObject(""CancelDelete""))",Firefox 60.0,,2019-01-10 12:15:00,2019-01-10 12:15:01,0.345s,PASSED
+delay(2),Firefox 60.0,,2019-01-10 12:15:01,2019-01-10 12:15:03,2.002s,PASSED
+closeBrowser(),Firefox 60.0,,2019-01-10 12:15:03,2019-01-10 12:15:04,1.349s,PASSED
+,,,,,,
+Test Cases/CRUD Data/Add Activity with Date,Firefox 60.0,,2019-01-10 12:15:04,2019-01-10 12:15:28,24.404s,PASSED
+"openBrowser("""")",Firefox 60.0,,2019-01-10 12:15:04,2019-01-10 12:15:09,4.891s,PASSED
+"navigateToUrl(""https://staging.poc.netzon.se/patient/list"")",Firefox 60.0,,2019-01-10 12:15:09,2019-01-10 12:15:19,9.287s,PASSED
+"click(findTestObject(""Object Repository/Page_Professional/img_Activities_ng-tns-c1-0 (3) (1)""))",Firefox 60.0,,2019-01-10 12:15:19,2019-01-10 12:15:19,0.646s,PASSED
+"click(findTestObject(""Object Repository/Page_Professional/div_Type_mat-select-arrow (2) (1)""))",Firefox 60.0,,2019-01-10 12:15:19,2019-01-10 12:15:20,0.484s,PASSED
+delay(1),Firefox 60.0,,2019-01-10 12:15:20,2019-01-10 12:15:21,1.003s,PASSED
+"click(findTestObject(""Object Repository/Page_Professional/span_Blood Pressure (3)""))",Firefox 60.0,,2019-01-10 12:15:21,2019-01-10 12:15:21,0.342s,PASSED
+"click(findTestObject(""Object Repository/Page_Professional/button_Date_mat-icon-button cd""))",Firefox 60.0,,2019-01-10 12:15:21,2019-01-10 12:15:22,0.613s,PASSED
+delay(1),Firefox 60.0,,2019-01-10 12:15:22,2019-01-10 12:15:23,1.003s,PASSED
+"click(findTestObject(""Object Repository/Page_Professional/div_14 (1)""))",Firefox 60.0,,2019-01-10 12:15:23,2019-01-10 12:15:23,0.418s,PASSED
+delay(1),Firefox 60.0,,2019-01-10 12:15:23,2019-01-10 12:15:24,1.002s,PASSED
+"click(findTestObject(""Object Repository/Page_Professional/button_Add (3)""))",Firefox 60.0,,2019-01-10 12:15:24,2019-01-10 12:15:25,0.603s,PASSED
+delay(2),Firefox 60.0,,2019-01-10 12:15:25,2019-01-10 12:15:27,2.001s,PASSED
+closeBrowser(),Firefox 60.0,,2019-01-10 12:15:27,2019-01-10 12:15:28,1.689s,PASSED
+,,,,,,
+Test Cases/Show Graph,Firefox 60.0,,2019-01-10 12:15:28,2019-01-10 12:15:52,24.098s,PASSED
+"openBrowser("""")",Firefox 60.0,,2019-01-10 12:15:29,2019-01-10 12:15:37,7.426s,PASSED
+"navigateToUrl(""https://poc.netzon.se/patient/list"")",Firefox 60.0,,2019-01-10 12:15:37,2019-01-10 12:15:46,9.624s,PASSED
+"click(findTestObject(""Object Repository/Page_Professional/div_Jessica Chastain""))",Firefox 60.0,,2019-01-10 12:15:46,2019-01-10 12:15:46,0.313s,PASSED
+"click(findTestObject(""Object Repository/Page_Professional/div_Brie Larson  brie.larsonma""))",Firefox 60.0,,2019-01-10 12:15:46,2019-01-10 12:15:47,0.292s,PASSED
+"click(findTestObject(""Object Repository/Page_Professional/div_Jessica Chastain""))",Firefox 60.0,,2019-01-10 12:15:47,2019-01-10 12:15:47,0.280s,PASSED
+"click(findTestObject(""Object Repository/Page_Professional/div_James Franco  james.franco""))",Firefox 60.0,,2019-01-10 12:15:47,2019-01-10 12:15:47,0.270s,PASSED
+"click(findTestObject(""Object Repository/Page_Professional/span_Show Graph (1)""))",Firefox 60.0,,2019-01-10 12:15:47,2019-01-10 12:15:48,0.252s,PASSED
+delay(3),Firefox 60.0,,2019-01-10 12:15:48,2019-01-10 12:15:51,3.002s,PASSED
+"click(findTestObject(""Object Repository/Page_Professional/span_Hide Graph""))",Firefox 60.0,,2019-01-10 12:15:51,2019-01-10 12:15:51,0.656s,PASSED
+closeBrowser(),Firefox 60.0,,2019-01-10 12:15:51,2019-01-10 12:15:52,1.252s,PASSED
