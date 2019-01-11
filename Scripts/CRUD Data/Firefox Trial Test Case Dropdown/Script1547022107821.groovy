@@ -19,9 +19,9 @@ import org.openqa.selenium.firefox.FirefoxDriver as FirefoxDriver
 import org.openqa.selenium.WebElement as WebElement
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
-WebUI.delay(5)
-
 WebUI.openBrowser('')
+
+WebUI.maximizeWindow()
 
 WebDriver driver = DriverFactory.getWebDriver()
 

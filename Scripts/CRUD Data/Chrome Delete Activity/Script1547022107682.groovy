@@ -20,6 +20,8 @@ import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
 WebUI.openBrowser('')
 
+WebUI.maximizeWindow()
+
 WebUI.navigateToUrl('https://staging.poc.netzon.se/patient/list')
 
 WebUI.click(findTestObject('Page_Professional/div_Michael Bay'))

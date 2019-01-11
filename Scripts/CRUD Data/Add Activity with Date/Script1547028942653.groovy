@@ -15,6 +15,8 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
+WebUI.maximizeWindow()
+
 WebUI.navigateToUrl('https://staging.poc.netzon.se/patient/list')
 
 WebUI.click(findTestObject('Object Repository/Page_Professional/img_Activities_ng-tns-c1-0 (3) (1)'))

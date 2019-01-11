@@ -15,6 +15,8 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
+WebUI.maximizeWindow()
+
 WebUI.navigateToUrl('https://poc.netzon.se/patient/list')
 
 WebUI.click(findTestObject('Object Repository/Page_Professional/div_Jessica Chastain'))
